@@ -1,0 +1,24 @@
+{
+  "name": "firefox-colors",
+  "version": "1.0.0",
+  "description": "Color variables for Firefox and related properties.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirefoxUX/design-tokens.git"
+  },
+  "keywords": [
+    "firefox",
+    "colors",
+    "css",
+    "json"
+  ],
+  "author": "Blake Winton <bwinton@latte.ca>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/FirefoxUX/design-tokens/issues"
+  },
+  "homepage": "https://github.com/FirefoxUX/design-tokens#readme"
+}

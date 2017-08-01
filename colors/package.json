@@ -1,6 +1,6 @@
 {
   "name": "photon-colors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Color variables for Firefox and related properties.",
   "scripts": {
     "build": "node build.js"

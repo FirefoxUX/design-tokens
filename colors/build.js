@@ -38,7 +38,7 @@ const sassOutput = [`/* Firefox Colors SCSS Variables v${metadata.version} */
 
 `];
 
-const jsOutput = [`/* Firefox Colors JS v${metadata.version} */
+const jsOutput = [`/* Firefox Colors JS Variables v${metadata.version} */
 
 `];
 

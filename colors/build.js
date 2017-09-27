@@ -65,3 +65,7 @@ fs.writeFile('colors.scss', sassOutput.join(''), 'utf8', (err) => {
 fs.writeFile('colors.js', jsOutput.join(''), 'utf8', (err) => {
   if (err) throw err;
 });
+
+fs.writeFile('photon.gpl', gplOutput.join(''), 'utf8', (err) => {
+  if (err) throw err;
+});

@@ -28,6 +28,12 @@ const jsOutput = [`/* Firefox Colors JS Variables v${metadata.version} */
 
 `];
 
+const gplOutput = [`GIMP Palette
+Name: Firefox/Photon
+# Firefox Colors GPL Color Palette v${metadata.version}
+# ${metadata.homepage}
+`];
+
 for (const color in colors) {
   if (colors.hasOwnProperty(color)) {
     const element = colors[color];
@@ -37,6 +43,12 @@ for (const color in colors) {
       (variant, value) => `$${color}-${variant}: ${value};\n`));
     jsOutput.push(...createColor(color, element,
       (variant, value) => `exports.${color.toUpperCase()}_${variant} = '${value}';\n`));
+    gplOutput.push(...createColor(color, element, function(variant, value) {
+      const r = parseInt(value.substr(1, 2), 16);
+      const g = parseInt(value.substr(3, 2), 16);
+      const b = parseInt(value.substr(5, 2), 16);
+      return `${r} ${g} ${b} ${color}-${variant}\n`
+    }));
   }
 }
 
@@ -51,5 +63,9 @@ fs.writeFile('colors.scss', sassOutput.join(''), 'utf8', (err) => {
 });
 
 fs.writeFile('colors.js', jsOutput.join(''), 'utf8', (err) => {
+  if (err) throw err;
+});
+
+fs.writeFile('photon.gpl', gplOutput.join(''), 'utf8', (err) => {
   if (err) throw err;
 });

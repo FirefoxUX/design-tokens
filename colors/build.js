@@ -20,6 +20,10 @@ const cssOutput = [`/* Firefox Colors CSS Variables v${metadata.version} */
 :root {
 `];
 
+const lessOutput = [`/* Firefox Colors Less Variables v${metadata.version} */
+
+`];
+
 const sassOutput = [`/* Firefox Colors SCSS Variables v${metadata.version} */
 
 `];
@@ -39,6 +43,8 @@ for (const color in colors) {
     const element = colors[color];
     cssOutput.push(...createColor(color, element,
       (variant, value) => `  --${color}-${variant}: ${value};\n`));
+    lessOutput.push(...createColor(color, element,
+      (variant, value) => `@${color}-${variant}: ${value};\n`));
     sassOutput.push(...createColor(color, element,
       (variant, value) => `$${color}-${variant}: ${value};\n`));
     jsOutput.push(...createColor(color, element,
@@ -55,6 +61,10 @@ for (const color in colors) {
 cssOutput.push('}\n');
 
 fs.writeFile('colors.css', cssOutput.join(''), 'utf8', (err) => {
+  if (err) throw err;
+});
+
+fs.writeFile('colors.less', sassOutput.join(''), 'utf8', (err) => {
   if (err) throw err;
 });
 

@@ -64,7 +64,7 @@ fs.writeFile('colors.css', cssOutput.join(''), 'utf8', (err) => {
   if (err) throw err;
 });
 
-fs.writeFile('colors.less', sassOutput.join(''), 'utf8', (err) => {
+fs.writeFile('colors.less', lessOutput.join(''), 'utf8', (err) => {
   if (err) throw err;
 });
 

@@ -1,4 +1,4 @@
-/* Firefox Colors JS Variables v1.0.4 */
+/* Firefox Colors JS Variables v1.2.0 */
 
 exports.MAGENTA_50 = '#ff1ad9';
 exports.MAGENTA_60 = '#ed00b5';

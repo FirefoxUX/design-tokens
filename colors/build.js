@@ -25,6 +25,13 @@ const formats = {
     'footer': '}\n',
     'ext': 'css'
   },
+  'less': {
+    'output': [`/* Firefox Colors Less Variables v${metadata.version} */
+
+`],
+    'formatter': (color, variant, value) => `@${color}-${variant}: ${value};\n`,
+    'ext': 'less'
+  },
   'sass': {
     'output': [`/* Firefox Colors SCSS Variables v${metadata.version} */
 

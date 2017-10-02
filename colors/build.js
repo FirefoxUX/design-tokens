@@ -60,6 +60,22 @@ Name: Firefox/Photon
       return `${r} ${g} ${b} ${color}-${variant}\n`
     },
     'ext': 'gpl'
+  },
+  'libreoffice': {
+    'output': [`<?xml version="1.0" encoding="UTF-8"?>
+<ooo:color-table
+  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+  xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:ooo="http://openoffice.org/2004/office">
+
+`],
+    'formatter': (color, variant, value) => {
+      return `  <draw:color draw:name="${color}-${variant}" draw:color="${value}" />\n`
+    },
+    'ext': 'soc',
+    'footer': '</ooo:color-table>'
   }
 }
 

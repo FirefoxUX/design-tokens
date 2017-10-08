@@ -68,6 +68,31 @@ ul.richlist li:hover {
   border-radius: 2px;
 }
 
+.message-bar {
+  background-color: var(--grey-20);
+  color: var(--grey-90);
+}
+
+.message-bar.attention {
+  background-color: var(--teal-50);
+  color: var(--teal-90);
+}
+
+.message-bar.success {
+  background-color: var(--green-50);
+  color: var(--green-90);
+}
+
+.message-bar.warning {
+  background-color: var(--yellow-50);
+  color: var(--yellow-90);
+}
+
+.message-bar.error {
+  background-color: var(--red-50);
+  color: white;
+}
+
 .card {
   background-color: #fff;
   margin: 1rem 0 1rem 0;

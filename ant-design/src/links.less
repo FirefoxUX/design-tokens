@@ -1,0 +1,23 @@
+// Links
+// http://design.firefox.com/photon/components/link.html
+
+a {
+  box-shadow: 0 0 2px 0 transparent;
+
+  &,
+  &:hover,
+  &:focus {
+    color: @blue-60;
+  }
+
+  &:active {
+    color: @blue-70;
+  }
+
+  &:focus {
+    // #36cae4 = Teal
+    box-shadow: 0 0 2px 0 #36cae4, 0 0 4px 0 rgba(54, 202, 228, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+  }
+}

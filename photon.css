@@ -15,7 +15,7 @@ a:focus {
   border: 1px var(--teal-50) solid;
 }
 
-a[href^="http"]::after {
+a[href*="://"]::after {
   content: "^";
 }
 
@@ -129,7 +129,7 @@ ul.richlist li:hover {
 }
 
 .card:empty {
-  display: none:
+  display: none;
 }
 
 .message-bar {
@@ -176,7 +176,7 @@ ul.richlist li:hover {
 }
 
 .text-danger {
-  color: var(--red-50):
+  color: var(--red-50);
 }
 
 .w-10 {width: 10%}

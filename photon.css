@@ -1,6 +1,23 @@
+/*
+ * Photon Design System
+ */
 @import "colors.css";
 
-a {color: var(--blue-60)}
+a {
+  color: var(--blue-60);
+}
+
+a:active {
+  color: var(--blue-70);
+}
+
+a:focus {
+  border: 1px var(--teal-50) solid;
+}
+
+a[href^="http"]::after {
+  content: "^";
+}
 
 body {
   background-color: var(--grey-10);
@@ -14,20 +31,31 @@ button {
   background-color: var(--grey-30);
   border: none;
   border-radius: 2px;
+  font-size: 13px;
   padding: 8px;
   color: var(--grey-90);
 }
 
-button:hover {background-color: var(--grey-40)}
+button:hover {
+  background-color: var(--grey-40);
+}
 
-button.default {
+button.micro {
+  font-size: 11px;
+}
+
+button.primary {
   background-color: var(--blue-60);
   color: white;
 }
-button.default:hover {background-color: var(--blue-70)}
+
+button.primary:hover {
+  background-color: var(--blue-70);
+}
 
 button.puffy {
   border-radius: 4px;
+  font-size: 15px;
   padding: 16px;
 }
 
@@ -39,15 +67,28 @@ input {
   border: 1px var(--grey-30) solid;
   padding: 4px;
 }
-input:focus {border: 1px var(--blue-50) solid}
-input:invalid {border: 1px var(--red-50) solid}
+
+input:focus {
+  border: 1px var(--blue-50) solid;
+}
+
+input:invalid {
+  border: 1px var(--red-50) solid;
+}
+
+label {
+  font-size: 13px;
+}
 
 table {
   border: 1px var(--grey-30) solid;
   border-collapse: collapse;
 }
 
-table td,th {padding: 8px}
+td,
+th {
+  padding: 8px;
+}
 
 thead th {
   background-color: var(--grey-20);
@@ -55,22 +96,47 @@ thead th {
   font-weight: normal;
 }
 
-tbody tr {background-color: white}
-tbody tr:nth-child(even) {background-color: var(--blue-30)}
+tbody tr {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--blue-30);
+}
 
 ul.richlist {
   list-style-type: none;
-  padding: 0
+  padding: 0;
 }
-ul.richlist li {padding: 10px}
+
+ul.richlist li {
+  padding: 10px;
+}
+
 ul.richlist li:hover {
   background-color: var(--grey-30);
   border-radius: 2px;
 }
 
+:disabled {
+  opacity: 0.4;
+}
+
+.card {
+  background-color: #fff;
+  margin: 1rem 0 1rem 0;
+  padding: 0.75rem;
+}
+
+.card:empty {
+  display: none:
+}
+
 .message-bar {
   background-color: var(--grey-20);
+  border-radius: 3px;
   color: var(--grey-90);
+  padding: 4px;
 }
 
 .message-bar.attention {
@@ -93,20 +159,25 @@ ul.richlist li:hover {
   color: white;
 }
 
-.card {
-  background-color: #fff;
-  margin: 1rem 0 1rem 0;
-  padding: 0.75rem;
+.shadow-10 {
+  box-shadow: 0 1px 4px var(--grey-20);
 }
 
-.card:empty {display: none}
+.shadow-20 {
+  box-shadow: 0 2px 8px var(--grey-20);
+}
 
-.shadow-10 {box-shadow: 0 1px 4px var(--grey-20)}
-.shadow-20 {box-shadow: 0 2px 8px var(--grey-20)}
-.shadow-30 {box-shadow: 0 4px 16px var(--grey-20)}
+.shadow-30 {
+  box-shadow: 0 4px 16px var(--grey-20);
+}
 
-.text-success {color: var(--green-50)}
-.text-danger {color: var(--red-50)}
+.text-success {
+  color: var(--green-50);
+}
+
+.text-danger {
+  color: var(--red-50):
+}
 
 .w-10 {width: 10%}
 .w-20 {width: 20%}

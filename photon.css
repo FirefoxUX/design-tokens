@@ -5,6 +5,7 @@
 
 a {
   color: var(--blue-60);
+  text-decoration: none;
 }
 
 a:active {
@@ -12,7 +13,12 @@ a:active {
 }
 
 a:focus {
-  border: 1px var(--teal-50) solid;
+  border: 1px solid var(--teal-50);
+}
+
+a:hover {
+  color: var(--blue-70);
+  text-decoration: underline;
 }
 
 a[href*="://"]::after {
@@ -59,21 +65,41 @@ button.puffy {
   padding: 16px;
 }
 
+dialog {
+  background-color: var(--grey-10);
+  border: 1px solid var(--grey-30);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  color: var(--grey-90);
+  padding: 0;
+}
+
 dialog::backdrop {
   background: rgba(0, 0, 0, 0.5);
 }
 
+dialog footer,
+dialog section {
+  margin: 20px;
+}
+
+dialog header {
+  background-color: var(--grey-20);
+  border-bottom: 1px solid var(--grey-30);
+  padding: 10px;
+}
+
 input {
-  border: 1px var(--grey-30) solid;
+  border: 1px solid var(--grey-30);
   padding: 4px;
 }
 
 input:focus {
-  border: 1px var(--blue-50) solid;
+  border: 1px solid var(--blue-50);
 }
 
 input:invalid {
-  border: 1px var(--red-50) solid;
+  border: 1px solid var(--red-50);
 }
 
 label {
@@ -81,7 +107,7 @@ label {
 }
 
 table {
-  border: 1px var(--grey-30) solid;
+  border: 1px solid var(--grey-30);
   border-collapse: collapse;
 }
 
@@ -159,16 +185,51 @@ ul.richlist li:hover {
   color: white;
 }
 
+.tabs {
+  border-bottom: 1px solid var(--grey-30);
+}
+
+.tabs a,
+.tabs button {
+  color: var(--grey-90);
+  text-decoration: none;
+}
+
+.tabs li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 4px 20px;
+}
+
+.tabs li:hover {
+  background-color: var(--grey-30);
+  border-bottom: 4px solid var(--grey-30);
+}
+
+.tabs ul {
+  margin: 0;
+}
+
+.tabs .active {
+  background-color: var(--grey-30);
+  border-bottom: 4px solid var(--blue-50);
+}
+
+.tabs .active:hover {
+  background-color: var(--grey-30);
+  border-bottom: 4px solid var(--blue-50);
+}
+
 .shadow-10 {
-  box-shadow: 0 1px 4px var(--grey-20);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .shadow-20 {
-  box-shadow: 0 2px 8px var(--grey-20);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .shadow-30 {
-  box-shadow: 0 4px 16px var(--grey-20);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .text-success {
@@ -177,6 +238,10 @@ ul.richlist li:hover {
 
 .text-danger {
   color: var(--red-50);
+}
+
+.user-select-none {
+  -moz-user-select: none;
 }
 
 .w-10 {width: 10%}

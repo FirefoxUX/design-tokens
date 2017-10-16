@@ -46,6 +46,10 @@ button:hover {
   background-color: var(--grey-40);
 }
 
+button:active {
+  background-color: var(--grey-50);
+}
+
 button.micro {
   font-size: 11px;
 }
@@ -57,6 +61,10 @@ button.primary {
 
 button.primary:hover {
   background-color: var(--blue-70);
+}
+
+button.primary:active {
+  background-color: var(--blue-80);
 }
 
 button.puffy {
@@ -194,6 +202,55 @@ ul.richlist li:hover {
 .message-bar button {
   font-size: 90%;
   text-transform: uppercase;
+}
+
+.message-bar.attention button {
+  background-color: var(--teal-60);
+}
+
+.message-bar.success button {
+  background-color: var(--green-60);
+}
+
+.message-bar.warning button {
+  background-color: var(--yellow-60);
+}
+
+.message-bar.error button {
+  background-color: var(--red-60);
+  color: white;
+}
+
+.message-bar.attention button:hover {
+  background-color: var(--teal-70);
+}
+
+.message-bar.success button:hover {
+  background-color: var(--green-70);
+}
+
+.message-bar.warning button:hover {
+  background-color: var(--yellow-70);
+}
+
+.message-bar.error button:hover {
+  background-color: var(--red-70);
+}
+
+.message-bar.attention button:active {
+  background-color: var(--teal-80);
+}
+
+.message-bar.success button:active {
+  background-color: var(--green-80);
+}
+
+.message-bar.warning button:active {
+  background-color: var(--yellow-80);
+}
+
+.message-bar.error button:active {
+  background-color: var(--red-80);
 }
 
 .tabs {

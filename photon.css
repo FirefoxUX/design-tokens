@@ -139,10 +139,6 @@ tbody tr {
   background-color: white;
 }
 
-tbody tr:nth-child(even) {
-  background-color: var(--blue-30);
-}
-
 ul.richlist {
   list-style-type: none;
   padding: 0;
@@ -286,6 +282,14 @@ ul.richlist li:hover {
 .tabs .active:hover {
   background-color: var(--grey-30);
   border-bottom: 4px solid var(--blue-50);
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--grey-20) !important;
+}
+
+.table-striped tbody tr:nth-child(even) {
+  background-color: var(--grey-10);
 }
 
 .shadow-10 {

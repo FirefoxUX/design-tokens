@@ -157,6 +157,10 @@ ul.richlist li:hover {
   opacity: 0.4;
 }
 
+.btn-ghost:not(:hover) {
+  background: none !important;
+}
+
 .card {
   background-color: #fff;
   margin: 1rem 0 1rem 0;
@@ -219,10 +223,12 @@ ul.richlist li:hover {
 
 .message-bar.attention button:hover {
   background-color: var(--teal-70);
+  color: white;
 }
 
 .message-bar.success button:hover {
   background-color: var(--green-70);
+  color: white;
 }
 
 .message-bar.warning button:hover {
@@ -243,6 +249,7 @@ ul.richlist li:hover {
 
 .message-bar.warning button:active {
   background-color: var(--yellow-80);
+  color: white;
 }
 
 .message-bar.error button:active {

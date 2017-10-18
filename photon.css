@@ -1,5 +1,5 @@
-/*
- * Photon Design System
+/*!
+ * Photon Design System (https://github.com/FirefoxUX/design-tokens/)
  */
 @import "colors.css";
 
@@ -48,29 +48,6 @@ button:hover {
 
 button:active {
   background-color: var(--grey-50);
-}
-
-button.micro {
-  font-size: 11px;
-}
-
-button.primary {
-  background-color: var(--blue-60);
-  color: white;
-}
-
-button.primary:hover {
-  background-color: var(--blue-70);
-}
-
-button.primary:active {
-  background-color: var(--blue-80);
-}
-
-button.puffy {
-  border-radius: 4px;
-  font-size: 15px;
-  padding: 16px;
 }
 
 dialog {
@@ -157,6 +134,29 @@ ul.richlist li:hover {
   opacity: 0.4;
 }
 
+.btn-micro {
+  font-size: 11px;
+}
+
+.btn-primary {
+  background-color: var(--blue-60);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-70);
+}
+
+.btn-primary:active {
+  background-color: var(--blue-80);
+}
+
+.btn-puffy {
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 16px;
+}
+
 .btn-ghost:not(:hover) {
   background: none !important;
 }
@@ -171,7 +171,7 @@ ul.richlist li:hover {
   display: none;
 }
 
-.message-bar {
+.messagebar {
   background-color: var(--grey-20);
   border-radius: 3px;
   color: var(--grey-90);
@@ -179,80 +179,80 @@ ul.richlist li:hover {
   padding: 4px;
 }
 
-.message-bar.attention {
+.messagebar-attention {
   background-color: var(--teal-50);
   color: var(--teal-90);
 }
 
-.message-bar.success {
+.messagebar-success {
   background-color: var(--green-50);
   color: var(--green-90);
 }
 
-.message-bar.warning {
+.messagebar-warning {
   background-color: var(--yellow-50);
   color: var(--yellow-90);
 }
 
-.message-bar.error {
+.messagebar-error {
   background-color: var(--red-50);
   color: white;
 }
 
-.message-bar button {
+.messagebar button {
   font-size: 90%;
   text-transform: uppercase;
 }
 
-.message-bar.attention button {
+.messagebar-attention button {
   background-color: var(--teal-60);
 }
 
-.message-bar.success button {
+.messagebar-success button {
   background-color: var(--green-60);
 }
 
-.message-bar.warning button {
+.messagebar-warning button {
   background-color: var(--yellow-60);
 }
 
-.message-bar.error button {
+.messagebar-error button {
   background-color: var(--red-60);
   color: white;
 }
 
-.message-bar.attention button:hover {
+.messagebar-attention button:hover {
   background-color: var(--teal-70);
   color: white;
 }
 
-.message-bar.success button:hover {
+.messagebar-success button:hover {
   background-color: var(--green-70);
   color: white;
 }
 
-.message-bar.warning button:hover {
+.messagebar-warning button:hover {
   background-color: var(--yellow-70);
 }
 
-.message-bar.error button:hover {
+.messagebar-error button:hover {
   background-color: var(--red-70);
 }
 
-.message-bar.attention button:active {
+.messagebar-attention button:active {
   background-color: var(--teal-80);
 }
 
-.message-bar.success button:active {
+.messagebar-success button:active {
   background-color: var(--green-80);
 }
 
-.message-bar.warning button:active {
+.messagebar-warning button:active {
   background-color: var(--yellow-80);
   color: white;
 }
 
-.message-bar.error button:active {
+.messagebar-error button:active {
   background-color: var(--red-80);
 }
 
@@ -322,14 +322,3 @@ ul.richlist li:hover {
 .user-select-none {
   -moz-user-select: none;
 }
-
-.w-10 {width: 10%}
-.w-20 {width: 20%}
-.w-30 {width: 30%}
-.w-40 {width: 40%}
-.w-50 {width: 50%}
-.w-60 {width: 60%}
-.w-70 {width: 70%}
-.w-80 {width: 80%}
-.w-90 {width: 90%}
-.w-100 {width: 100%}

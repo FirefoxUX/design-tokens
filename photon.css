@@ -3,6 +3,16 @@
  */
 @import "colors.css";
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 a {
   color: var(--blue-60);
   text-decoration: none;
@@ -30,7 +40,7 @@ body {
   color: var(--grey-90);
   font-family: "system-ui", "Ubuntu", "Segoe UI", "San Francisco";
   font-size: 15px;
-  padding: 20px 44px 0 44px;
+  padding: 20px 44px 0;
 }
 
 button {
@@ -48,6 +58,10 @@ button:hover {
 
 button:active {
   background-color: var(--grey-50);
+}
+
+button::-moz-focus-inner {
+  border: 0;
 }
 
 dialog {
@@ -163,7 +177,7 @@ ul.richlist li:hover {
 
 .card {
   background-color: #fff;
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0;
   padding: 0.75rem;
 }
 
@@ -172,10 +186,13 @@ ul.richlist li:hover {
 }
 
 .messagebar {
+  align-items: center;
   background-color: var(--grey-20);
   border-radius: 3px;
   color: var(--grey-90);
+  display: flex;
   font-size: 13px;
+  min-height: 32px;
   padding: 4px;
 }
 
@@ -201,6 +218,8 @@ ul.richlist li:hover {
 
 .messagebar button {
   font-size: 90%;
+  height: 24px;
+  line-height: 1px;
   text-transform: uppercase;
 }
 

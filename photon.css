@@ -194,6 +194,7 @@ ul.richlist li:hover {
   font-size: 13px;
   min-height: 32px;
   padding: 4px;
+  width: -moz-fit-content;
 }
 
 .messagebar-attention {

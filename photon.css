@@ -133,6 +133,7 @@ tbody tr {
 ul.richlist {
   list-style-type: none;
   padding: 0;
+  -moz-user-select: none;
 }
 
 ul.richlist li {
@@ -278,6 +279,7 @@ ul.richlist li:hover {
 
 .tabs {
   border-bottom: 1px solid var(--grey-30);
+  -moz-user-select: none;
 }
 
 .tabs a,
@@ -298,6 +300,7 @@ ul.richlist li:hover {
 }
 
 .tabs ul {
+  display: inline-flex;
   margin: 0;
 }
 

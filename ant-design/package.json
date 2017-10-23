@@ -1,6 +1,6 @@
 {
   "name": "photon-ant",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Mozilla Photon styles for the Ant Design UI library",
   "main": "index.less",
   "scripts": {
@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/FirefoxUX/design-tokens#readme",
   "dependencies": {
-    "photon-colors": "^1.3.0"
+    "antd": "2.13.6",
+    "less": "2.7.2",
+    "less-loader": "4.0.5",
+    "photon-colors": "1.3.0"
   }
 }

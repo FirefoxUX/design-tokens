@@ -1,0 +1,31 @@
+{
+  "name": "photon-ant",
+  "version": "0.1.0",
+  "description": "Mozilla Photon styles for the Ant Design UI library",
+  "main": "index.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirefoxUX/design-tokens.git"
+  },
+  "keywords": [
+    "photon",
+    "mozilla",
+    "antdesign",
+    "ant"
+  ],
+  "author": "Andy Mikulski <amikulski@mozilla.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/FirefoxUX/design-tokens/issues"
+  },
+  "homepage": "https://github.com/FirefoxUX/design-tokens#readme",
+  "dependencies": {
+    "antd": "2.13.6",
+    "less": "2.7.2",
+    "less-loader": "4.0.5",
+    "photon-colors": "1.3.0"
+  }
+}

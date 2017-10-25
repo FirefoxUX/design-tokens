@@ -1,0 +1,389 @@
+@font-face {
+  font-family: 'photon-icons';
+  src:  url('./photon-icons.eot');
+  src:  url('./photon-icons.eot#iefix') format('embedded-opentype'),
+    url('./photon-icons.ttf') format('truetype'),
+    url('./photon-icons.woff') format('woff'),
+    url('./photon-icons.svg#photon-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="photon-icon-"], [class*="photon-icon-"] {
+  font-family: 'photon-icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.photon-icon-accessibility:before {
+  content: "\e900";
+}
+.photon-icon-arrowhead-down:before {
+  content: "\e901";
+}
+.photon-icon-arrowhead-down:before {
+  content: "\e902";
+}
+.photon-icon-arrowhead-left:before {
+  content: "\e903";
+}
+.photon-icon-arrowhead-left:before {
+  content: "\e904";
+}
+.photon-icon-arrowhead-right:before {
+  content: "\e905";
+}
+.photon-icon-arrowhead-right:before {
+  content: "\e906";
+}
+.photon-icon-arrowhead-up:before {
+  content: "\e907";
+}
+.photon-icon-arrowhead-up:before {
+  content: "\e908";
+}
+.photon-icon-audio-mute:before {
+  content: "\e909";
+}
+.photon-icon-audio:before {
+  content: "\e90a";
+}
+.photon-icon-available-updates:before {
+  content: "\e90b";
+}
+.photon-icon-back:before {
+  content: "\e90c";
+}
+.photon-icon-bookmark-Outline:before {
+  content: "\e90d";
+}
+.photon-icon-bookmark-remove:before {
+  content: "\e90e";
+}
+.photon-icon-bookmarksmenu:before {
+  content: "\e90f";
+}
+.photon-icon-check:before {
+  content: "\e910";
+}
+.photon-icon-close:before {
+  content: "\e911";
+}
+.photon-icon-copy:before {
+  content: "\e912";
+}
+.photon-icon-customize:before {
+  content: "\e913";
+}
+.photon-icon-cut:before {
+  content: "\e914";
+}
+.photon-icon-delete:before {
+  content: "\e915";
+}
+.photon-icon-developer:before {
+  content: "\e916";
+}
+.photon-icon-device-desktop:before {
+  content: "\e917";
+}
+.photon-icon-device-mobile:before {
+  content: "\e918";
+}
+.photon-icon-dictionaries:before {
+  content: "\e919";
+}
+.photon-icon-download:before {
+  content: "\e91a";
+}
+.photon-icon-experiments:before {
+  content: "\e91b";
+}
+.photon-icon-extensions:before {
+  content: "\e91c";
+}
+.photon-icon-extensions:before {
+  content: "\e91d";
+}
+.photon-icon-folder:before {
+  content: "\e91e";
+}
+.photon-icon-forget:before {
+  content: "\e91f";
+}
+.photon-icon-formfill:before {
+  content: "\e920";
+}
+.photon-icon-forward:before {
+  content: "\e921";
+}
+.photon-icon-fullscreen:before {
+  content: "\e922";
+}
+.photon-icon-fullscreen-disabled:before {
+  content: "\e923";
+}
+.photon-icon-fullscreen-disabled:before {
+  content: "\e924";
+}
+.photon-icon-fullscreen:before {
+  content: "\e925";
+}
+.photon-icon-fullscreen-exit:before {
+  content: "\e926";
+}
+.photon-icon-fullscreen-exit:before {
+  content: "\e927";
+}
+.photon-icon-get-add-ons:before {
+  content: "\e928";
+}
+.photon-icon-glyph:before {
+  content: "\e929";
+}
+.photon-icon-help:before {
+  content: "\e92a";
+}
+.photon-icon-highlights:before {
+  content: "\e92b";
+}
+.photon-icon-history:before {
+  content: "\e92c";
+}
+.photon-icon-home:before {
+  content: "\e92d";
+}
+.photon-icon-identity-icon-hover:before {
+  content: "\e92e";
+}
+.photon-icon-identity-icon-notice-hover:before {
+  content: "\e92f";
+}
+.photon-icon-identity-icon-notice:before {
+  content: "\e930";
+}
+.photon-icon-identity-icon:before {
+  content: "\e931";
+}
+.photon-icon-info:before {
+  content: "\e932";
+}
+.photon-icon-library:before {
+  content: "\e933";
+}
+.photon-icon-link:before {
+  content: "\e934";
+}
+.photon-icon-location-mac-disabled:before {
+  content: "\e935";
+}
+.photon-icon-location-mac:before {
+  content: "\e936";
+}
+.photon-icon-location-win:before {
+  content: "\e937";
+}
+.photon-icon-location:before {
+  content: "\e938";
+}
+.photon-icon-login:before {
+  content: "\e939";
+}
+.photon-icon-mail:before {
+  content: "\e93a";
+}
+.photon-icon-menu:before {
+  content: "\e93b";
+}
+.photon-icon-microphone-disabled:before {
+  content: "\e93c";
+}
+.photon-icon-more:before {
+  content: "\e93d";
+}
+.photon-icon-mouse-pointer-6:before {
+  content: "\e93e";
+}
+.photon-icon-new:before {
+  content: "\e93f";
+}
+.photon-icon-notification-disabled:before {
+  content: "\e940";
+}
+.photon-icon-notification:before {
+  content: "\e941";
+}
+.photon-icon-open:before {
+  content: "\e942";
+}
+.photon-icon-open-in-new:before {
+  content: "\e943";
+}
+.photon-icon-overflow:before {
+  content: "\e944";
+}
+.photon-icon-paste:before {
+  content: "\e945";
+}
+.photon-icon-pin:before {
+  content: "\e946";
+}
+.photon-icon-pin:before {
+  content: "\e947";
+}
+.photon-icon-pinremove:before {
+  content: "\e948";
+}
+.photon-icon-play:before {
+  content: "\e949";
+}
+.photon-icon-plugin:before {
+  content: "\e94a";
+}
+.photon-icon-plugin-disabled:before {
+  content: "\e94b";
+}
+.photon-icon-plugin:before {
+  content: "\e94c";
+}
+.photon-icon-pocket:before {
+  content: "\e94d";
+}
+.photon-icon-pocket-list:before {
+  content: "\e94e";
+}
+.photon-icon-popup-block:before {
+  content: "\e94f";
+}
+.photon-icon-preferences-macos:before {
+  content: "\e950";
+}
+.photon-icon-print:before {
+  content: "\e951";
+}
+.photon-icon-privatebrowsing:before {
+  content: "\e952";
+}
+.photon-icon-privatebrowsing:before {
+  content: "\e953";
+}
+.photon-icon-quit:before {
+  content: "\e954";
+}
+.photon-icon-readermode:before {
+  content: "\e955";
+}
+.photon-icon-recent-updates:before {
+  content: "\e956";
+}
+.photon-icon-refresh:before {
+  content: "\e957";
+}
+.photon-icon-report:before {
+  content: "\e958";
+}
+.photon-icon-save:before {
+  content: "\e959";
+}
+.photon-icon-screenshot:before {
+  content: "\e95a";
+}
+.photon-icon-search:before {
+  content: "\e95b";
+}
+.photon-icon-search_003:before {
+  content: "\e95c";
+}
+.photon-icon-search:before {
+  content: "\e95d";
+}
+.photon-icon-share-windows:before {
+  content: "\e95e";
+}
+.photon-icon-stop:before {
+  content: "\e95f";
+}
+.photon-icon-subitem:before {
+  content: "\e960";
+}
+.photon-icon-sync:before {
+  content: "\e961";
+}
+.photon-icon-tab:before {
+  content: "\e962";
+}
+.photon-icon-tab-new:before {
+  content: "\e963";
+}
+.photon-icon-themes:before {
+  content: "\e964";
+}
+.photon-icon-topsites:before {
+  content: "\e965";
+}
+.photon-icon-tracking-protection-disabled:before {
+  content: "\e966";
+}
+.photon-icon-video-recorder-disabled:before {
+  content: "\e967";
+}
+.photon-icon-warning:before {
+  content: "\e968";
+}
+.photon-icon-window:before {
+  content: "\e969";
+}
+.photon-icon-window-new:before {
+  content: "\e96a";
+}
+.photon-icon-bookmark-filled:before {
+  content: "\e96b";
+}
+.photon-icon-legacy-extension:before {
+  content: "\e96c";
+}
+.photon-icon-location-disabled:before {
+  content: "\e96d";
+}
+.photon-icon-location-win-disabled:before {
+  content: "\e96e";
+}
+.photon-icon-microphone:before {
+  content: "\e96f";
+}
+.photon-icon-mouse-pointer-disabled:before {
+  content: "\e970";
+}
+.photon-icon-screen-share-disabled:before {
+  content: "\e971";
+}
+.photon-icon-screen-share:before {
+  content: "\e972";
+}
+.photon-icon-share-macos:before {
+  content: "\e973";
+}
+.photon-icon-sidebar:before {
+  content: "\e974";
+}
+.photon-icon-store-data-disabled:before {
+  content: "\e975";
+}
+.photon-icon-store-data:before {
+  content: "\e976";
+}
+.photon-icon-subscribe:before {
+  content: "\e977";
+}
+.photon-icon-tracking-protection:before {
+  content: "\e978";
+}
+.photon-icon-video-recorder:before {
+  content: "\e979";
+}

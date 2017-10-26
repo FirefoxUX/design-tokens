@@ -29,7 +29,6 @@ let html = `
 <body>
   ${
     Object.keys(icons).map(iconName => {
-      const icon = icons[iconName];
       return `<div>
         <span class="photon-icon-${iconName}"></span>
         <span class="photon-icon-${iconName}"></span>
@@ -49,5 +48,50 @@ try {
   throw err;
 }
 
-console.log("The file was saved!");
+console.log("HTML demo file was saved!");
+
+// CSS
+
+html = `
+@font-face {
+  font-family: 'photon-icons';
+  src:  url('./photon-icons.eot');
+  src:  url('./photon-icons.eot#iefix') format('embedded-opentype'),
+    url('./photon-icons.ttf') format('truetype'),
+    url('./photon-icons.woff') format('woff'),
+    url('./photon-icons.svg#photon-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="photon-icon-"], [class*="photon-icon-"] {
+  font-family: 'photon-icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+${
+  Object.keys(icons).map(iconName => {
+    const icon = icons[iconName];
+    return `
+.photon-icon-${iconName}::before {
+  content: "${icons[iconName]}";
+}`;
+  }).join('\n')
+}
+`
+
+try {
+  fs.writeFileSync('./index.css', html);
+} catch(err) {
+  throw err;
+}
+
+console.log("CSS file was saved!");
 

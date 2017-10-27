@@ -2,7 +2,7 @@ const { icons } = require('./index.js');
 const fs = require('fs');
 
 // HTML Demo Page
-let html = `
+let output = `
 <!doctype html>
 <html>
 <head>
@@ -43,7 +43,7 @@ let html = `
 
 
 try {
-  fs.writeFileSync('./demo.html', html);
+  fs.writeFileSync('./demo.html', output);
 } catch(err) {
   throw err;
 }
@@ -52,7 +52,7 @@ console.log("HTML demo file was saved!");
 
 // CSS
 
-html = `
+output = `
 @font-face {
   font-family: 'photon-icons';
   src:  url('./photon-icons.eot');
@@ -64,7 +64,7 @@ html = `
   font-style: normal;
 }
 
-[class^="photon-icon-"], [class*="photon-icon-"] {
+[class^="photon-icon-"]::before, [class*="photon-icon-"]::before {
   font-family: 'photon-icons' !important;
   font-style: normal;
   font-weight: normal;
@@ -77,18 +77,14 @@ html = `
 }
 
 ${
-  Object.keys(icons).map(iconName => {
-    const icon = icons[iconName];
-    return `
-.photon-icon-${iconName}::before {
-  content: "${icons[iconName]}";
-}`;
-  }).join('\n')
+  Object.keys(icons).map(iconName =>
+    `.photon-icon-${iconName}::before { content: "${icons[iconName]}"; }`
+  ).join('\n')
 }
 `
 
 try {
-  fs.writeFileSync('./index.css', html);
+  fs.writeFileSync('./index.css', output);
 } catch(err) {
   throw err;
 }

@@ -102,15 +102,15 @@ const availableIcons = [
 ];
 
 const mappings = {};
-const startIndex = 9;
-
+const baseIndex = '9';
 
 availableIcons.forEach((icon, idx) => {
-  let next = (idx.toString(16));
+  // Icons are mapped in HEX, so we need to convert the base 10 counter for use.
+  let next = idx.toString(16);
   if (next.length < 2) {
     next = `0${next}`;
   }
-  mappings[icon] = `\\e${startIndex + next}`;
+  mappings[icon] = `\\e${baseIndex}${next}`;
 });
 
 module.exports = {

@@ -43,7 +43,7 @@ let output = `
 
 
 try {
-  fs.writeFileSync('./demo.html', output);
+  fs.writeFileSync('./demo/index.html', output);
 } catch(err) {
   throw err;
 }

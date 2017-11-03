@@ -1,3 +1,4 @@
+// #TODO: Pull this list from the SVG files included with the package.
 const availableIcons = [
   'arrow-forward',
   'arrow-left',
@@ -105,11 +106,12 @@ const mappings = {};
 const baseIndex = '9';
 
 availableIcons.forEach((icon, idx) => {
-  // Icons are mapped in HEX, so we need to convert the base 10 counter for use.
+  // Icons are mapped in HEX, so we need to convert the base 10 counter before use.
   let next = idx.toString(16);
   if (next.length < 2) {
     next = `0${next}`;
   }
+  // This is the value that is output in the actual CSS.
   mappings[icon] = `\\e${baseIndex}${next}`;
 });
 

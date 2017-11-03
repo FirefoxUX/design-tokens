@@ -1,13 +1,14 @@
 const { icons } = require('./index.js');
 const fs = require('fs');
+const path = require('path');
 
 // HTML Demo Page
 let output = `
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Photon Icons</title>
-  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="../index.css" type="text/css">
   <style type="text/css">
     body { display: flex; flex-wrap: wrap; }
     div {
@@ -27,16 +28,15 @@ let output = `
   </style>
 </head>
 <body>
-  ${
-    Object.keys(icons).map(iconName => {
-      return `<div>
-        <span class="photon-icon-${iconName}"></span>
-        <span class="photon-icon-${iconName}"></span>
-        <span class="photon-icon-${iconName}"></span>
+  ${Object.keys(icons).map(iconName => {
+      return `
+      <div>
+        <span title="${iconName} - 48px" class="photon-icon-${iconName}"></span>
+        <span title="${iconName} - 24px" class="photon-icon-${iconName}"></span>
+        <span title="${iconName} - 12px" class="photon-icon-${iconName}"></span>
         <h2>${ iconName }</h2>
       </div>`;
-    }).join('\n')
-  }
+    }).join('\n')}
 </body>
 </html>
 `;
@@ -50,22 +50,28 @@ try {
 
 console.log("HTML demo file was saved!");
 
+
 // CSS
+const now = (new Date()).toLocaleString();
+const FONT_PATH = path.relative(__dirname, './fonts/');
+const FILE_PATH = `${FONT_PATH}/photon-icons`;
 
 output = `
+/* Automated build - ${now} */
+
 @font-face {
-  font-family: 'photon-icons';
-  src:  url('./photon-icons.eot');
-  src:  url('./photon-icons.eot#iefix') format('embedded-opentype'),
-    url('./photon-icons.ttf') format('truetype'),
-    url('./photon-icons.woff') format('woff'),
-    url('./photon-icons.svg#photon-icons') format('svg');
+  font-family: "photon-icons";
+  src:  url('${FILE_PATH}.eot');
+  src:  url('${FILE_PATH}.eot#iefix') format('embedded-opentype'),
+    url('${FILE_PATH}.ttf') format('truetype'),
+    url('${FILE_PATH}.woff') format('woff'),
+    url('${FILE_PATH}.svg#photon-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="photon-icon-"]::before, [class*="photon-icon-"]::before {
-  font-family: 'photon-icons' !important;
+  font-family: "photon-icons" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

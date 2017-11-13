@@ -1,0 +1,26 @@
+@import "node_modules/photon-colors/colors/colors.scss";
+
+// Photon variable overrides
+$body-bg: $grey-10;
+$body-color: $grey-90;
+
+$theme-colors: (
+  "primary": $blue-50,
+  "danger": $red-50
+);
+
+$colors: (
+  "blue": $blue-50,
+  "purple": $purple-50,
+  "pink": $magenta-50,
+  "red": $red-50,
+  "orange": $orange-50,
+  "yellow": $yellow-50,
+  "green": $green-50,
+  "teal": $teal-50,
+  "gray": $grey-60,
+  "gray-dark": $grey-80
+);
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";

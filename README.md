@@ -22,6 +22,10 @@ And this is its conversion into a CSS variable:
 }
 ```
 
+## Themes
+
+Combine multiple tokens to customize frameworks and other dimensions. For Photon themes, see [https://github.com/firefoxux/photon-themes](https://github.com/firefoxux/photon-themes).
+
 ## Contribute
 
 Setup the environment with [git](https://git-scm.com/) and [node](https://nodejs.org/en/) already installed. Then:

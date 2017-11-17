@@ -54,10 +54,11 @@ Name: Firefox/Photon
 
 `],
     'formatter': (color, variant, value) => {
+      color = color.charAt(0).toUpperCase() + color.slice(1);;
       const r = parseInt(value.substr(1, 2), 16);
       const g = parseInt(value.substr(3, 2), 16);
       const b = parseInt(value.substr(5, 2), 16);
-      return `${r} ${g} ${b} ${color}-${variant}\n`
+      return `${r} ${g} ${b} ${color} ${variant}\n`
     },
     'ext': 'gpl'
   },

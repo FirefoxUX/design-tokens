@@ -51,6 +51,7 @@ const formats = {
     'output': [`GIMP Palette
 Name: Photon Colors
 # Photon Colors GPL Color Palette v${metadata.version}
+# ${metadata.homepage}
 
 `],
     'formatter': (color, variant, value) => {

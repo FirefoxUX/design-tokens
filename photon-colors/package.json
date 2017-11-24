@@ -1,6 +1,6 @@
 {
   "name": "photon-colors",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Color variables for Firefox and related properties.",
   "main": "photon-colors.js",
   "style": "photon-colors.scss",
@@ -22,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/FirefoxUX/design-tokens/issues?q=is%3Aissue+is%3Aopen+label%3A%22tokens%3A+colors%22"
   },
-  "homepage": "https://github.com/FirefoxUX/design-tokens/photon-colors#readme"
+  "homepage": "https://github.com/FirefoxUX/design-tokens/tree/master/photon-colors#readme"
 }

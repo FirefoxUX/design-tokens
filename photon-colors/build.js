@@ -1,5 +1,5 @@
 const fs = require('fs');
-const colors = require('./photon.json');
+const colors = require('./photon-colors.json');
 const metadata = require('./package.json');
 const colorArray = [];
 
@@ -18,7 +18,7 @@ function createColor(color, element, formatter) {
 
 const formats = {
   'css': {
-    'output': [`/* Firefox Colors CSS Variables v${metadata.version} */
+    'output': [`/* Photon Colors CSS Variables v${metadata.version} */
 
 :root {
 `],
@@ -27,21 +27,21 @@ const formats = {
     'ext': 'css'
   },
   'less': {
-    'output': [`/* Firefox Colors Less Variables v${metadata.version} */
+    'output': [`/* Photon Colors Less Variables v${metadata.version} */
 
 `],
     'formatter': (color, variant, value) => `@${color}-${variant}: ${value};\n`,
     'ext': 'less'
   },
   'sass': {
-    'output': [`/* Firefox Colors SCSS Variables v${metadata.version} */
+    'output': [`/* Photon Colors SCSS Variables v${metadata.version} */
 
 `],
     'formatter': (color, variant, value) => `$${color}-${variant}: ${value};\n`,
     'ext': 'scss'
   },
   'js': {
-    'output': [`/* Firefox Colors JS Variables v${metadata.version} */
+    'output': [`/* Photon Colors JS Variables v${metadata.version} */
 
 `],
     'formatter': (color, variant, value) => `exports.${color.toUpperCase()}_${variant} = '${value}';\n`,
@@ -49,8 +49,8 @@ const formats = {
   },
   'gimp': {
     'output': [`GIMP Palette
-Name: Firefox/Photon
-# Firefox Colors GPL Color Palette v${metadata.version}
+Name: Photon Colors
+# Photon Colors GPL Color Palette v${metadata.version}
 # ${metadata.homepage}
 
 `],
@@ -130,7 +130,7 @@ for (let key in formats) {
   if (key === 'sketch') continue;
   const format = formats[key];
   format.output.push(format.footer || '');
-  fs.writeFile(`colors.${format.ext}`, format.output.join(''), 'utf8', (err) => {
+  fs.writeFile(`photon-colors.${format.ext}`, format.output.join(''), 'utf8', (err) => {
     if (err) throw err;
   });
 }
@@ -144,7 +144,7 @@ colorArray.map((el,index, arr) => {
 formats['sketch'].output.push(formats['sketch'].footer);
 
 // output sketch format to files
-fs.writeFile(`colors.sketchpalette`, formats['sketch'].output.join(''), 'utf8', (err) => {
+fs.writeFile(`photon-colors.sketchpalette`, formats['sketch'].output.join(''), 'utf8', (err) => {
   if (err) throw err;
 });
 

@@ -48,6 +48,7 @@ button {
   border: none;
   border-radius: 2px;
   font-size: 13px;
+  height: 32px;
   padding: 8px;
   color: var(--grey-90);
 }
@@ -149,8 +150,16 @@ ul.richlist li:hover {
   opacity: 0.4;
 }
 
+.badge {
+  background-color: var(--yellow-50);
+  font-size: small;
+  padding: 4px;
+  text-transform: uppercase;
+}
+
 .btn-micro {
   font-size: 11px;
+  height: 24px;
 }
 
 .btn-primary {
@@ -169,7 +178,12 @@ ul.richlist li:hover {
 .btn-puffy {
   border-radius: 4px;
   font-size: 15px;
+  height: 48px;
   padding: 16px;
+}
+
+.btn-ghost {
+  width: 32px;
 }
 
 .btn-ghost:not(:hover) {
@@ -184,6 +198,15 @@ ul.richlist li:hover {
 
 .card:empty {
   display: none;
+}
+
+.doorhanger {
+  background-color: #fff;
+  border: 1px solid var(--grey-30);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  max-height: 90%;
+  max-width: 320px;
+  position: absolute;
 }
 
 .messagebar {
@@ -228,11 +251,24 @@ ul.richlist li:hover {
   color: white;
 }
 
+.messagebar-fixed {
+  border-bottom: 1px solid var(--grey-30);
+  font-size: 15px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
 .messagebar button {
   font-size: 90%;
   height: 24px;
   line-height: 1px;
   text-transform: uppercase;
+}
+
+.messagebar .btn-ghost {
+  width: 24px;
 }
 
 .messagebar-attention button {

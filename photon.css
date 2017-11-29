@@ -49,7 +49,7 @@ button {
   border-radius: 2px;
   font-size: 13px;
   height: 32px;
-  padding: 8px;
+  padding: 0 8px;
   color: var(--grey-90);
 }
 
@@ -179,7 +179,7 @@ ul.richlist li:hover {
   border-radius: 4px;
   font-size: 15px;
   height: 48px;
-  padding: 16px;
+  padding: 0 16px;
 }
 
 .btn-ghost {

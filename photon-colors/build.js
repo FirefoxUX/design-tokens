@@ -3,16 +3,21 @@ const colors = require('./photon-colors.json');
 const metadata = require('./package.json');
 const colorArray = [];
 
-function createColor(color, element, formatter) {
+function createColor(color, element, format) {
   const rv = [];
 
   for (const variant in element) {
     if (element.hasOwnProperty(variant)) {
       const value = element[variant];
-      rv.push(formatter(color, variant, value));
+      rv.push(format.formatter(color, variant, value));
     }
   }
-  rv.push('\n');
+  if (format.group_end === undefined) {
+    format.group_end = '\n';
+  }
+  if (format.group_end) {
+    rv.push(format.group_end);
+  }
   return rv;
 }
 
@@ -79,72 +84,51 @@ Name: Photon Colors
     'ext': 'soc',
     'footer': '</ooo:color-table>'
   },
-// unfortunately the sketch palatte format is
-// rather different from the other output formats which
-// include named variables,
-// and is handled differently than the other formats
   'sketch': {
-    output: [`{
-  "colors": [
-`],
+    output: [],
     ext: 'sketchpalette',
-    footer: `
-  ],
-  "pluginVersion":"1.5",
-  "compatibleVersion":"1.5"
-}`,
-    formatter: (value, last) => {
+    formatter: (color, variant, value) => {
       const r = parseInt(value.substr(1, 2), 16)/255;
       const g = parseInt(value.substr(3, 2), 16)/255;
       const b = parseInt(value.substr(5, 2), 16)/255;
-      let obj = `    {
-      "alpha":1,
-      "blue":${b},
-      "green":${g},
-      "red":${r}
-    }`;
-      if (!last) {
-        obj +=  `,\n`
+      return {
+        "alpha":1,
+        "blue":b,
+        "green":g,
+        "red":r
+      };
+    },
+    group_end: '',
+    outputter: (data) => {
+      let output = {
+        "colors": [...data],
+        "pluginVersion":"1.5",
+        "compatibleVersion":"1.5"
       }
-      return obj;
+      return JSON.stringify(output, null, 2);
     }
   }
 }
 
-// populate output for formats with key/value pairs
-// and fill up an array for other formats
 for (const color in colors) {
   const element = colors[color];
-  for (val in element) {
-    colorArray.push(element[val]);
-  }
   for (const key in formats) {
-    if (key === 'sketch') continue;
     const format = formats[key];
-    format.output.push(...createColor(color, element, format.formatter));
+    format.output.push(...createColor(color, element, format));
   }
 }
 
 // output key/value formats to files
 for (let key in formats) {
-  if (key === 'sketch') continue;
   const format = formats[key];
-  format.output.push(format.footer || '');
-  fs.writeFile(`photon-colors.${format.ext}`, format.output.join(''), 'utf8', (err) => {
+  if (format.footer) {
+    format.output.push(format.footer);
+  }
+  let out_func = format.outputter;
+  if (!out_func) {
+    out_func = (data) => data.join('');
+  }
+  fs.writeFile(`photon-colors.${format.ext}`, out_func(format.output), 'utf8', (err) => {
     if (err) throw err;
   });
 }
-
-// populate output for sketch format
-colorArray.map((el,index, arr) => {
-  const last = (index === arr.length - 1);
-  formats['sketch'].output.push(formats['sketch'].formatter(el, last));
-});
-
-formats['sketch'].output.push(formats['sketch'].footer);
-
-// output sketch format to files
-fs.writeFile(`photon-colors.sketchpalette`, formats['sketch'].output.join(''), 'utf8', (err) => {
-  if (err) throw err;
-});
-

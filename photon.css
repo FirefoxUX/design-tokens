@@ -190,6 +190,10 @@ ul.richlist li:hover {
   background: none !important;
 }
 
+.btn-wide {
+  min-width: 132px;
+}
+
 .card {
   background-color: #fff;
   margin: 1rem 0;
@@ -207,6 +211,10 @@ ul.richlist li:hover {
   max-height: 90%;
   max-width: 320px;
   position: absolute;
+}
+
+.indent {
+  margin-left: 20px;
 }
 
 .messagebar {
@@ -253,6 +261,7 @@ ul.richlist li:hover {
 
 .messagebar-fixed {
   border-bottom: 1px solid var(--grey-30);
+  height: 36px;
   font-size: 15px;
   position: fixed;
   left: 0;

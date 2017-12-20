@@ -1,0 +1,36 @@
+{
+  "license": "This Source Code Form is subject to the terms of the Mozilla Public License, version 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.",
+  "fills": [
+    "blue-40",
+    "blue-50",
+    "context-fill",
+    "green-90",
+    "grey-10-opacity-60",
+    "grey-10-opacity-80",
+    "grey-90-opacity-60",
+    "grey-90-opacity-80",
+    "red-60",
+    "white",
+    "yellow-60"
+  ],
+  "icons": {
+    "accessibility": {
+      "name": "Accessibility",
+      "tags": [
+        "a11y",
+        "accessible",
+        "inclusion",
+        "inclusive"
+      ],
+      "categories": [
+        "developer",
+        "general"
+      ],
+      "source": {
+        "16": "INSERT CODE OR PATH HERE",
+        "20": "INSERT CODE OR PATH HERE",
+        "24": "INSERT CODE OR PATH HERE"
+      }
+    }
+  }
+}

@@ -213,6 +213,23 @@ ul.richlist li:hover {
   position: absolute;
 }
 
+.doorhanger-menu {
+  padding: 4px 0;
+}
+
+.doorhanger-menu a {
+  border: 0;
+  color: var(--ink-90);
+  display: block;
+  text-decoration: none;
+  outline: 0;
+  padding: 4px 8px;
+}
+
+.doorhanger-menu a:hover {
+  background-color: var(--grey-20);
+}
+
 .indent {
   margin-left: 20px;
 }
@@ -261,6 +278,7 @@ ul.richlist li:hover {
 
 .messagebar-fixed {
   border-bottom: 1px solid var(--grey-30);
+  border-radius: 0;
   height: 36px;
   font-size: 15px;
   position: fixed;

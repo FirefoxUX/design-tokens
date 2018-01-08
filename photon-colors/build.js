@@ -42,7 +42,7 @@ const formats = {
         return `  --${color}-${variant}: ${value};\n`;
       } else {
         const {r,g,b} = getRgb(value);
-        return `  --${color}-${variant}-${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
+        return `  --${color}-${variant}-a${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
       }
     },
     'footer': '}\n',
@@ -53,6 +53,9 @@ const formats = {
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
         return `@${color}-${variant}: ${value};\n`;
+      } else {
+        const {r,g,b} = getRgb(value);
+        return `@${color}-${variant}-a${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
       }
     },
     'ext': 'less'
@@ -62,6 +65,9 @@ const formats = {
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
         return `$${color}-${variant}: ${value};\n`;
+      } else {
+        const {r,g,b} = getRgb(value);
+        return `$${color}-${variant}-a${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
       }
     },
     'ext': 'scss'
@@ -69,9 +75,11 @@ const formats = {
   'js': {
     'output': [`/* Photon Colors JS Variables v${metadata.version} */\n\n`],
     'formatter': (color, variant, value, alpha) => {
-      if (alpha == '100') {
-        return `exports.${color.toUpperCase()}_${variant} = '${value}';\n`;
+      if (alpha != '100') {
+        variant += `_A${alpha}`;
+        value = value + (alpha / 100 * 255).toString(16).split('.')[0];
       }
+      return `exports.${color.toUpperCase()}_${variant} = '${value}';\n`;
     },
     'ext': 'js'
   },

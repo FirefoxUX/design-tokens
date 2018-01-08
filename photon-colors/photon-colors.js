@@ -14,6 +14,7 @@ exports.PURPLE_90 = '#25003e';
 
 exports.BLUE_40 = '#45a1ff';
 exports.BLUE_50 = '#0a84ff';
+exports.BLUE_50_A30 = '#0a84ff4c';
 exports.BLUE_60 = '#0060df';
 exports.BLUE_70 = '#003eaa';
 exports.BLUE_80 = '#002275';
@@ -58,6 +59,15 @@ exports.GREY_60 = '#4a4a4f';
 exports.GREY_70 = '#38383d';
 exports.GREY_80 = '#2a2a2e';
 exports.GREY_90 = '#0c0c0d';
+exports.GREY_90_A10 = '#0c0c0d19';
+exports.GREY_90_A20 = '#0c0c0d33';
+exports.GREY_90_A30 = '#0c0c0d4c';
+exports.GREY_90_A40 = '#0c0c0d66';
+exports.GREY_90_A50 = '#0c0c0d7f';
+exports.GREY_90_A60 = '#0c0c0d99';
+exports.GREY_90_A70 = '#0c0c0db2';
+exports.GREY_90_A80 = '#0c0c0dcc';
+exports.GREY_90_A90 = '#0c0c0de5';
 
 exports.INK_70 = '#363959';
 exports.INK_80 = '#202340';

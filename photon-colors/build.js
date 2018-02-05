@@ -35,6 +35,18 @@ function createColor(color, element, format) {
 }
 
 const formats = {
+  'android': {
+    'output': [`<?xml version="1.0" encoding="utf-8"?>\n\n<!-- This Source Code Form is subject to the terms of the Mozilla Public\n   - License, v. 2.0. If a copy of the MPL was not distributed with this\n   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->\n\n<resources>\n    <!-- Photon Color Palette v${metadata.version} -->\n`],
+    'formatter': (color, variant, value, alpha) => {
+      if (alpha != '100') {
+        variant += `_a${alpha}`;
+        value = '#' + (alpha / 100 * 255).toString(16).split('.')[0] + value.substr(1);
+      }
+      return `    <color name="${color}_${variant}">${value}</color>\n`
+    },
+    'ext': 'android.xml',
+    'footer': '</resources>'
+  },
   'css': {
     'output': [`/* Photon Colors CSS Variables v${metadata.version} */\n\n:root {\n`],
     'formatter': (color, variant, value, alpha) => {

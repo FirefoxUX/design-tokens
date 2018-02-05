@@ -4,32 +4,38 @@
     "blue-40",
     "blue-50",
     "context-fill",
-    "green-90",
-    "grey-10-opacity-60",
-    "grey-10-opacity-80",
-    "grey-90-opacity-60",
-    "grey-90-opacity-80",
+    "green-60",
+    "grey-10-a60",
+    "grey-10-a80",
+    "grey-90-a60",
+    "grey-90-a80",
     "red-60",
     "white",
     "yellow-60"
   ],
   "icons": {
-    "accessibility": {
-      "name": "Accessibility",
+    "info": {
+      "name": "Info",
       "tags": [
-        "a11y",
-        "accessible",
-        "inclusion",
-        "inclusive"
+        "alert"
+        "identity",
+        "info",
+        "information",
       ],
       "categories": [
-        "developer",
-        "general"
+        "general",
+        "security"
       ],
       "source": {
-        "16": "INSERT CODE OR PATH HERE",
-        "20": "INSERT CODE OR PATH HERE",
-        "24": "INSERT CODE OR PATH HERE"
+        "android": {
+          "24": "icons/android/info.svg"
+        },
+        "desktop": {
+          "16": "icons/desktop/info.svg"
+        },
+        "ios": {
+          "24": "icons/ios/info.svg"
+        }
       }
     }
   }

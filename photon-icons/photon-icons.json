@@ -1,0 +1,42 @@
+{
+  "license": "This Source Code Form is subject to the terms of the Mozilla Public License, version 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.",
+  "fills": [
+    "blue-40",
+    "blue-50",
+    "context-fill",
+    "green-60",
+    "grey-10-a60",
+    "grey-10-a80",
+    "grey-90-a60",
+    "grey-90-a80",
+    "red-60",
+    "white",
+    "yellow-60"
+  ],
+  "icons": {
+    "info": {
+      "name": "Info",
+      "tags": [
+        "alert"
+        "identity",
+        "info",
+        "information",
+      ],
+      "categories": [
+        "general",
+        "security"
+      ],
+      "source": {
+        "android": {
+          "24": "icons/android/info.svg"
+        },
+        "desktop": {
+          "16": "icons/desktop/info.svg"
+        },
+        "ios": {
+          "24": "icons/ios/info.svg"
+        }
+      }
+    }
+  }
+}

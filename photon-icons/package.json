@@ -1,0 +1,25 @@
+{
+  "name": "photon-icons",
+  "version": "0.0.1",
+  "description": "Icons for Firefox and related properties.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirefoxUX/design-tokens.git"
+  },
+  "keywords": [
+    "firefox",
+    "ant",
+    "design",
+    "css",
+    "json"
+  ],
+  "author": "Blake Winton <bwinton@latte.ca>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/FirefoxUX/design-tokens/issues?q=is%3Aissue+is%3Aopen+label%3A%22tokens%3A+icons%22"
+  },
+  "homepage": "https://github.com/FirefoxUX/design-tokens/tree/master/photon-icons#readme"
+}

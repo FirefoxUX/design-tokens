@@ -13,18 +13,18 @@
     "white",
     "yellow-60"
   ],
-  "icons": {
-    "info": {
-      "name": "Info",
+  "icons": [
+    { "name": "Info",
       "tags": [
-        "alert"
         "identity",
         "info",
-        "information",
+        "information"
       ],
       "categories": [
+        "alert",
         "general",
-        "security"
+        "security",
+        "imported"
       ],
       "source": {
         "android": {
@@ -38,5 +38,5 @@
         }
       }
     }
-  }
+  ]
 }

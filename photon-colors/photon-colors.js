@@ -73,3 +73,5 @@ exports.INK_70 = '#363959';
 exports.INK_80 = '#202340';
 exports.INK_90 = '#0f1126';
 
+exports.WHITE_100 = '#ffffff';
+

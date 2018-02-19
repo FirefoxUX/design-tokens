@@ -69,4 +69,6 @@
   <draw:color draw:name="ink-80" draw:color="#202340" />
   <draw:color draw:name="ink-90" draw:color="#0f1126" />
 
+  <draw:color draw:name="white-100" draw:color="#ffffff" />
+
 </ooo:color-table>

@@ -1,4 +1,4 @@
-/* Photon Colors JS Variables v2.1.0 */
+/* Photon Colors JS Variables v2.2.0 */
 
 exports.MAGENTA_50 = '#ff1ad9';
 exports.MAGENTA_60 = '#ed00b5';

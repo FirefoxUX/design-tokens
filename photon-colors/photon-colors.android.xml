@@ -65,6 +65,7 @@
     <color name="grey_70">#38383d</color>
     <color name="grey_80">#2a2a2e</color>
     <color name="grey_90">#0c0c0d</color>
+    <color name="grey_90_a05">#0c0c0c0d</color>
     <color name="grey_90_a10">#190c0c0d</color>
     <color name="grey_90_a20">#330c0c0d</color>
     <color name="grey_90_a30">#4c0c0c0d</color>

@@ -1,4 +1,4 @@
-/* Photon Colors JS Variables v2.0.1 */
+/* Photon Colors JS Variables v2.1.0 */
 
 exports.MAGENTA_50 = '#ff1ad9';
 exports.MAGENTA_60 = '#ed00b5';
@@ -72,4 +72,6 @@ exports.GREY_90_A90 = '#0c0c0de5';
 exports.INK_70 = '#363959';
 exports.INK_80 = '#202340';
 exports.INK_90 = '#0f1126';
+
+exports.WHITE_100 = '#ffffff';
 

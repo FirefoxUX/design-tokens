@@ -1,4 +1,4 @@
-/* Photon Colors CSS Variables v2.0.1 */
+/* Photon Colors CSS Variables v2.1.0 */
 
 :root {
   --magenta-50: #ff1ad9;
@@ -73,5 +73,7 @@
   --ink-70: #363959;
   --ink-80: #202340;
   --ink-90: #0f1126;
+
+  --white-100: #ffffff;
 
 }

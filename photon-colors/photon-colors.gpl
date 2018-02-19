@@ -1,6 +1,6 @@
 GIMP Palette
 Name: Photon Colors
-# Photon Colors GPL Color Palette v2.0.1
+# Photon Colors GPL Color Palette v2.1.0
 # https://github.com/FirefoxUX/design-tokens/tree/master/photon-colors#readme
 
 255 26 217 Magenta 50
@@ -65,4 +65,6 @@ Name: Photon Colors
 54 57 89 Ink 70
 32 35 64 Ink 80
 15 17 38 Ink 90
+
+255 255 255 White 100
 

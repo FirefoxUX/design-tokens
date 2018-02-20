@@ -60,29 +60,31 @@ const formats = {
     'footer': '}\n',
     'ext': 'css'
   },
-  'less': {
-    'output': [`/* Photon Colors Less Variables v${metadata.version} */\n\n`],
+  'gimp': {
+    'output': [`GIMP Palette\nName: Photon Colors\n# Photon Colors GPL Color Palette v${metadata.version}\n# ${metadata.homepage}\n\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
-        return `@${color}-${variant}: ${value};\n`;
-      } else {
+        color = color.charAt(0).toUpperCase() + color.slice(1);
         const {r,g,b} = getRgb(value);
-        return `@${color}-${variant}-a${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
+        return `${r} ${g} ${b} ${color} ${variant}\n`;
       }
     },
-    'ext': 'less'
+    'ext': 'gpl'
   },
-  'sass': {
-    'output': [`/* Photon Colors SCSS Variables v${metadata.version} */\n\n`],
+  'ios': {
+    'output': [`/* Photon Colors JS Variables v${metadata.version}\n   From ${metadata.homepage} */\n\nextension UIColor {\n    struct Photon {\n`],
     'formatter': (color, variant, value, alpha) => {
-      if (alpha == '100') {
-        return `$${color}-${variant}: ${value};\n`;
+      color = color[0].toUpperCase() + color.substr(1);
+      if (alpha != '100') {
+        variant += `A${alpha}`;
+        value = `rgba: ${value + (alpha / 100 * 255).toString(16).split('.')[0]}`
       } else {
-        const {r,g,b} = getRgb(value);
-        return `$${color}-${variant}-a${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
+        value = `rgb: ${value}`;
       }
+      return `        static let ${color}${variant} = UIColor(${value});\n`;
     },
-    'ext': 'scss'
+    'ext': 'swift',
+    'footer': '  }\n}'
   },
   'js': {
     'output': [`/* Photon Colors JS Variables v${metadata.version} */\n\n`],
@@ -95,16 +97,17 @@ const formats = {
     },
     'ext': 'js'
   },
-  'gimp': {
-    'output': [`GIMP Palette\nName: Photon Colors\n# Photon Colors GPL Color Palette v${metadata.version}\n# ${metadata.homepage}\n\n`],
+  'less': {
+    'output': [`/* Photon Colors Less Variables v${metadata.version} */\n\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
-        color = color.charAt(0).toUpperCase() + color.slice(1);
+        return `@${color}-${variant}: ${value};\n`;
+      } else {
         const {r,g,b} = getRgb(value);
-        return `${r} ${g} ${b} ${color} ${variant}\n`;
+        return `@${color}-${variant}-a${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
       }
     },
-    'ext': 'gpl'
+    'ext': 'less'
   },
   'libreoffice': {
     'output': [`<?xml version="1.0" encoding="UTF-8"?>\n<ooo:color-table\n  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"\n  xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"\n  xmlns:xlink="http://www.w3.org/1999/xlink"\n  xmlns:svg="http://www.w3.org/2000/svg"\n  xmlns:ooo="http://openoffice.org/2004/office">\n\n`],
@@ -115,6 +118,18 @@ const formats = {
     },
     'ext': 'soc',
     'footer': '</ooo:color-table>'
+  },
+  'sass': {
+    'output': [`/* Photon Colors SCSS Variables v${metadata.version} */\n\n`],
+    'formatter': (color, variant, value, alpha) => {
+      if (alpha == '100') {
+        return `$${color}-${variant}: ${value};\n`;
+      } else {
+        const {r,g,b} = getRgb(value);
+        return `$${color}-${variant}-a${alpha}: rgba(${r}, ${g}, ${b}, ${alpha/100});\n`;
+      }
+    },
+    'ext': 'scss'
   },
   'sketch': {
     output: [],

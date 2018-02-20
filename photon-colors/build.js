@@ -10,6 +10,10 @@ function getRgb(value) {
   return {r,g,b};
 }
 
+function toHex(value) {
+  return ('0' + Math.floor(value / 100 * 255).toString(16).split('.')[0]).substr(-2);
+}
+
 function createColor(color, element, format) {
   const rv = [];
 
@@ -40,8 +44,7 @@ const formats = {
     'formatter': (color, variant, value, alpha) => {
       if (alpha != '100') {
         variant += `_a${alpha}`;
-        alphaToHex = Math.floor(alpha / 100 * 255).toString(16).split('.')[0];
-        value = '#' + (alphaToHex.length === 1 ? `0${alphaToHex}` : alphaToHex) + value.substr(1);
+        value = '#' + toHex(alpha) + value.substr(1);
       }
       return `    <color name="${color}_${variant}">${value}</color>\n`
     },
@@ -78,9 +81,9 @@ const formats = {
       color = color[0].toUpperCase() + color.substr(1);
       if (alpha != '100') {
         variant += `A${alpha}`;
-        value = `rgba: ${value + (alpha / 100 * 255).toString(16).split('.')[0]}`
+        value = `rgba: 0x${value.substr(1) + toHex(alpha)}`
       } else {
-        value = `rgb: ${value}`;
+        value = `rgb: 0x${value.substr(1)}`;
       }
       return `        static let ${color}${variant} = UIColor(${value});\n`;
     },
@@ -92,8 +95,7 @@ const formats = {
     'formatter': (color, variant, value, alpha) => {
       if (alpha != '100') {
         variant += `_A${alpha}`;
-        alphaToHex = Math.floor(alpha / 100 * 255).toString(16).split('.')[0];
-        value = value + (alphaToHex.length === 1 ? `0${alphaToHex}` : alphaToHex);
+        value = value + toHex(alpha);
       }
       return `exports.${color.toUpperCase()}_${variant} = '${value}';\n`;
     },

@@ -40,7 +40,8 @@ const formats = {
     'formatter': (color, variant, value, alpha) => {
       if (alpha != '100') {
         variant += `_a${alpha}`;
-        value = '#' + (alpha / 100 * 255).toString(16).split('.')[0] + value.substr(1);
+        alphaToHex = Math.floor(alpha / 100 * 255).toString(16).split('.')[0];
+        value = '#' + (alphaToHex.length === 1 ? `0${alphaToHex}` : alphaToHex) + value.substr(1);
       }
       return `    <color name="${color}_${variant}">${value}</color>\n`
     },
@@ -91,7 +92,8 @@ const formats = {
     'formatter': (color, variant, value, alpha) => {
       if (alpha != '100') {
         variant += `_A${alpha}`;
-        value = value + (alpha / 100 * 255).toString(16).split('.')[0];
+        alphaToHex = Math.floor(alpha / 100 * 255).toString(16).split('.')[0];
+        value = value + (alphaToHex.length === 1 ? `0${alphaToHex}` : alphaToHex);
       }
       return `exports.${color.toUpperCase()}_${variant} = '${value}';\n`;
     },

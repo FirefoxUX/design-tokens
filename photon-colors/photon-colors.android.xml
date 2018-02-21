@@ -5,7 +5,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <resources>
-    <!-- Photon Color Palette v2.2.0 -->
+    <!-- Photon Color Palette v3.0.0 -->
     <color name="magenta_50">#ff1ad9</color>
     <color name="magenta_60">#ed00b5</color>
     <color name="magenta_70">#b5007f</color>

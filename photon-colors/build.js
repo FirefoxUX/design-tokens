@@ -3,6 +3,19 @@ const colors = require('./photon-colors.json');
 const metadata = require('./package.json');
 const colorArray = [];
 
+const jsLicense = `/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+`;
+const xmlLicense = `<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+`;
+const shLicense = `# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+`;
+
 function getRgb(value) {
   const r = parseInt(value.substr(1, 2), 16);
   const g = parseInt(value.substr(3, 2), 16);
@@ -40,7 +53,7 @@ function createColor(color, element, format) {
 
 const formats = {
   'android': {
-    'output': [`<?xml version="1.0" encoding="utf-8"?>\n\n<!-- This Source Code Form is subject to the terms of the Mozilla Public\n   - License, v. 2.0. If a copy of the MPL was not distributed with this\n   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->\n\n<resources>\n    <!-- Photon Color Palette v${metadata.version} -->\n`],
+    'output': [`<?xml version="1.0" encoding="utf-8"?>\n\n${xmlLicense}\n<resources>\n    <!-- Photon Color Palette v${metadata.version} -->\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha != '100') {
         variant += `_a${alpha}`;
@@ -52,7 +65,7 @@ const formats = {
     'footer': '</resources>'
   },
   'css': {
-    'output': [`/* Photon Colors CSS Variables v${metadata.version} */\n\n:root {\n`],
+    'output': [`${jsLicense}\n/* Photon Colors CSS Variables v${metadata.version} */\n\n:root {\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
         return `  --${color}-${variant}: ${value};\n`;
@@ -65,7 +78,7 @@ const formats = {
     'ext': 'css'
   },
   'gimp': {
-    'output': [`GIMP Palette\nName: Photon Colors\n# Photon Colors GPL Color Palette v${metadata.version}\n# ${metadata.homepage}\n\n`],
+    'output': [`GIMP Palette\nName: Photon Colors\n${shLicense}\n# Photon Colors GPL Color Palette v${metadata.version}\n# ${metadata.homepage}\n\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
         color = color.charAt(0).toUpperCase() + color.slice(1);
@@ -76,7 +89,7 @@ const formats = {
     'ext': 'gpl'
   },
   'ios': {
-    'output': [`/* Photon Colors JS Variables v${metadata.version}\n   From ${metadata.homepage} */\n\nextension UIColor {\n    struct Photon {\n`],
+    'output': [`${jsLicense}\n/* Photon Colors iOS Variables v${metadata.version}\n   From ${metadata.homepage} */\n\nextension UIColor {\n    struct Photon {\n`],
     'formatter': (color, variant, value, alpha) => {
       color = color[0].toUpperCase() + color.substr(1);
       if (alpha != '100') {
@@ -91,7 +104,7 @@ const formats = {
     'footer': '  }\n}'
   },
   'js': {
-    'output': [`/* Photon Colors JS Variables v${metadata.version} */\n\n`],
+    'output': [`${jsLicense}\n/* Photon Colors JS Variables v${metadata.version} */\n\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha != '100') {
         variant += `_A${alpha}`;
@@ -102,7 +115,7 @@ const formats = {
     'ext': 'js'
   },
   'less': {
-    'output': [`/* Photon Colors Less Variables v${metadata.version} */\n\n`],
+    'output': [`${jsLicense}\n/* Photon Colors Less Variables v${metadata.version} */\n\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
         return `@${color}-${variant}: ${value};\n`;
@@ -114,7 +127,7 @@ const formats = {
     'ext': 'less'
   },
   'libreoffice': {
-    'output': [`<?xml version="1.0" encoding="UTF-8"?>\n<ooo:color-table\n  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"\n  xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"\n  xmlns:xlink="http://www.w3.org/1999/xlink"\n  xmlns:svg="http://www.w3.org/2000/svg"\n  xmlns:ooo="http://openoffice.org/2004/office">\n\n`],
+    'output': [`<?xml version="1.0" encoding="UTF-8"?>\n${xmlLicense}\n<ooo:color-table\n  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"\n  xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"\n  xmlns:xlink="http://www.w3.org/1999/xlink"\n  xmlns:svg="http://www.w3.org/2000/svg"\n  xmlns:ooo="http://openoffice.org/2004/office">\n<!-- Photon Color Palette v${metadata.version} -->\n\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
         return `  <draw:color draw:name="${color}-${variant}" draw:color="${value}" />\n`;
@@ -124,7 +137,7 @@ const formats = {
     'footer': '</ooo:color-table>'
   },
   'sass': {
-    'output': [`/* Photon Colors SCSS Variables v${metadata.version} */\n\n`],
+    'output': [`${jsLicense}\n/* Photon Colors SCSS Variables v${metadata.version} */\n\n`],
     'formatter': (color, variant, value, alpha) => {
       if (alpha == '100') {
         return `$${color}-${variant}: ${value};\n`;

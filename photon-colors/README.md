@@ -70,7 +70,7 @@ UIColor.Photon.Blue60
 
 #### Sketch
 
-1. Install [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes/) plugin.
+1. Install [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes/) plugin
 2. Download [photon-colors.sketchpalette](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.sketchpalette)
 3. From Sketch.app Menu Bar Menus select
 4. Plugins > Sketch Palettes > Load Palette

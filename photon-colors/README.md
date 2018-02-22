@@ -12,81 +12,90 @@ The Photon Colors can be installed via npm.
 $ npm install photon-colors
 ```
 
-**CSS**
+##### CSS
 
 ```css
 @import url('photon-colors.css');
 
-.class {
+.class_name {
   color: var(--blue-60);
 }
 ```
 
-**SASS**
+##### Sass
 
 ```Sass
 @import "photon-colors.scss";
 
-.class {
+.class_name {
   color: $blue-60;
 }
 ```
 
-**Less**
+##### Less
 
 ```less
 @import (reference) "photon-colors.less";
 
-.class {
+.class_name {
   color: @blue-60;
 }
 ```
 
-**JS**
+##### JavaScript
 
 ```js
-import photon-colors from 'photon-colors.js';
+import photon from 'photon-colors.js';
+
+document.getElementById(id).style.color = photon.BLUE_60;
 ```
 
-**XML**
+##### XML
 
-Download and paste [photon-colors.android.xml](#) to your Android project. Then:
+Download and paste [photon-colors.android.xml](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.android.xml) to your Android project. Then:
 
 ```xml
 <item android:color="@color/blue_60" />
 ```
 
-**Swift**
+##### Swift
 
-Download and paste [photon-colors.android.xml](#) to your Swift project. Then:
+Download and paste [photon-colors.android.swift](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.android.swift) to your Swift project. Then:
 
 ```swift
-titleText.textColor = UIColor.Blue60
+UIColor.Photon.Blue60
 ```
 
 ### Apps
 
-**Sketch**
+##### Sketch
 
 1. Install [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes/) plugin.
-2. Download [photon-colors.sketchpalette](#)
+2. Download [photon-colors.sketchpalette](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.sketchpalette)
 3. From Sketch.app Menu Bar Menus select
 4. Plugins > Sketch Palettes > Load Palette
 5. Select photon-colors.sketchpalette
 6. Select load method to Document Presets or Global Presents
 
-**Gimp**
+##### Gimp
 
-1. Download [photon-colors.gpl](#)
+1. Download [photon-colors.gpl](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.gpl)
 2. From Gimp Menu Bar Menus select
 3. Windows > Dockable Dialogs > Palettes
 4. From Tab Menu select
 5. Palettes Menu > Import Palette... > Select Source > Palette file
 6. Select photon-colors.gpl
 
-**Libre Office**
+##### Libre Office
+
+1. Download [photon-colors.soc](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.soc)
+2. From Libre Office Menu Bar Menus select
+3. Format > Page... > Area > Color > Load Color List
+4. Select photon-colors.soc
 
 ## Contribute
+
+Open an [issue](https://github.com/FirefoxUX/design-tokens/issues/new) or submit a pull request.
 
 ### Get started
 
@@ -102,6 +111,9 @@ $ npm install
 2. In the terminal, run `npm run build`
 
 ### Add file type
+
+1. Edit `./build.js`
+2. In the terminal, run `npm run build`
 
 
 

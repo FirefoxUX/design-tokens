@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Icons for Firefox and related properties.",
   "scripts": {
-    "build": "node build.js"
+    "test": "node validate.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/FirefoxUX/design-tokens/issues?q=is%3Aissue+is%3Aopen+label%3A%22tokens%3A+icons%22"
   },
-  "homepage": "https://github.com/FirefoxUX/design-tokens/tree/master/photon-icons#readme"
+  "homepage": "https://github.com/FirefoxUX/design-tokens/tree/master/photon-icons#readme",
+  "dependencies": {
+    "shelljs": "0.8.1"
+  }
 }

@@ -77,7 +77,7 @@ UIColor.Photon.Blue60
 5. Select photon-colors.sketchpalette
 6. Select load method to Document Presets or Global Presents
 
-#### Gimp
+#### GIMP
 
 1. Download [photon-colors.gpl](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.gpl)
 2. From Gimp Menu Bar Menus select
@@ -86,7 +86,7 @@ UIColor.Photon.Blue60
 5. Palettes Menu > Import Palette... > Select Source > Palette file
 6. Select photon-colors.gpl
 
-#### Libre Office
+#### LibreOffice
 
 1. Download [photon-colors.soc](https://github.com/FirefoxUX/design-tokens/raw/master/photon-colors/photon-colors.soc)
 2. From Libre Office Menu Bar Menus select

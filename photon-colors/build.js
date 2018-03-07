@@ -98,7 +98,7 @@ const formats = {
       } else {
         value = `rgb: 0x${value.substr(1)}`;
       }
-      return `        static let ${color}${variant} = UIColor(${value});\n`;
+      return `        static let ${color}${variant} = UIColor(${value})\n`;
     },
     'ext': 'swift',
     'footer': '  }\n}'

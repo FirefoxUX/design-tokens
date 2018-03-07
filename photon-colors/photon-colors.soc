@@ -9,7 +9,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:ooo="http://openoffice.org/2004/office">
-<!-- Photon Color Palette v3.0.0 -->
+<!-- Photon Color Palette v3.0.1 -->
 
   <draw:color draw:name="magenta-50" draw:color="#ff1ad9" />
   <draw:color draw:name="magenta-60" draw:color="#ed00b5" />

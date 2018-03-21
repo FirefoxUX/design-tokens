@@ -1,0 +1,14 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1{fill-rule:evenodd}
+    </style>
+  </defs>
+  <title>
+    firefox
+  </title>
+  <path class="cls-1" d="M30.22 12.4A1.88 1.88 0 0 0 29 11.18L21.91 9l-4.14-6.39a1.88 1.88 0 0 0-3.17 0L10.47 9 3.4 11.18a1.88 1.88 0 0 0-1 2.92L7 20.25l-.25 7.8a1.88 1.88 0 0 0 2.55 1.82l6.9-1.8 6.89 1.8a1.88 1.88 0 0 0 2.55-1.82l-.24-7.8 4.56-6.15a1.88 1.88 0 0 0 .26-1.7zM16.66 27.17a6.63 6.63 0 0 1-4.46-1.66l-2.6 2.6v-7.53h7.53l-2.33 2.33a3.36 3.36 0 0 0 2.81 1.43 3.09 3.09 0 0 0 3.29-2.82 2.44 2.44 0 0 0-.22-.94h1.84a4.4 4.4 0 0 1 .26 1.42c0 2.85-2.78 5.17-6.12 5.17zm6.12-8.47h-7.53l2.33-2.33a3.36 3.36 0 0 0-2.81-1.43 3.09 3.09 0 0 0-3.3 2.82 2.44 2.44 0 0 0 .22.94H9.86a4.41 4.41 0 0 1-.26-1.41c0-2.86 2.74-5.18 6.12-5.18a6.63 6.63 0 0 1 4.46 1.66l2.6-2.6z" id="Action-icons"/>
+</svg>

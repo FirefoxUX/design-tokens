@@ -14,27 +14,1920 @@
     "yellow-60"
   ],
   "icons": [
-    { "name": "Info",
-      "tags": [
-        "identity",
-        "info",
-        "information"
-      ],
-      "categories": [
-        "alert",
-        "general",
-        "security",
-        "imported"
-      ],
+    { "name": "Help",
+      "tags": [],
+      "categories": ["alert"],
       "source": {
-        "android": {
-          "24": "icons/android/info.svg"
-        },
         "desktop": {
-          "16": "icons/desktop/info.svg"
-        },
-        "ios": {
-          "24": "icons/ios/info.svg"
+          "16": "icons/desktop/alert/help-16.svg"
+        }
+      }
+    },
+    { "name": "Info",
+      "tags": [],
+      "categories": ["alert"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/alert/info-16.svg"
+        }
+      }
+    },
+    { "name": "Warning",
+      "tags": [],
+      "categories": ["alert"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/alert/warning-16.svg"
+        }
+      }
+    },
+    { "name": "Update Failed",
+      "tags": [],
+      "categories": ["badges", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/badges/deprecated-update-failed.svg"
+        }
+      }
+    },
+    { "name": "Update Success",
+      "tags": [],
+      "categories": ["badges", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/badges/deprecated-update-success.svg"
+        }
+      }
+    },
+    { "name": "Glyph",
+      "tags": [],
+      "categories": ["branding"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/branding/glyph.svg"
+        }
+      }
+    },
+    { "name": "Copy",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/copy-16.svg"
+        }
+      }
+    },
+    { "name": "Cut",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/cut-16.svg"
+        }
+      }
+    },
+    { "name": "Character Encoding",
+      "tags": [],
+      "categories": ["content", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/deprecated-character-encoding.svg"
+        }
+      }
+    },
+    { "name": "Zoom In",
+      "tags": [],
+      "categories": ["content", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/deprecated-zoom-in.svg"
+        }
+      }
+    },
+    { "name": "Zoom Out",
+      "tags": [],
+      "categories": ["content", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/deprecated-zoom-out.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen Disabled",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/fullscreen-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/fullscreen-16.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen Exit",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/fullscreen-exit-16.svg"
+        }
+      }
+    },
+    { "name": "Open",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/open-16.svg"
+        }
+      }
+    },
+    { "name": "Paste",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/paste-16.svg"
+        }
+      }
+    },
+    { "name": "Print",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/print-16.svg"
+        }
+      }
+    },
+    { "name": "Save",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/save-16.svg"
+        }
+      }
+    },
+    { "name": "Search",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/content/search-16.svg"
+        }
+      }
+    },
+    { "name": "Add",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-add.svg"
+        }
+      }
+    },
+    { "name": "App",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-app.svg"
+        }
+      }
+    },
+    { "name": "Clear",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-clear.svg"
+        }
+      }
+    },
+    { "name": "Close",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-close.svg"
+        }
+      }
+    },
+    { "name": "Command Console",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-console.svg"
+        }
+      }
+    },
+    { "name": "Command Eyedropper",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-eyedropper.svg"
+        }
+      }
+    },
+    { "name": "Command Frames",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-frames.svg"
+        }
+      }
+    },
+    { "name": "Command Measure",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-measure.svg"
+        }
+      }
+    },
+    { "name": "Command Noautohide",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-noautohide.svg"
+        }
+      }
+    },
+    { "name": "Command Paintflashing",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-paintflashing.svg"
+        }
+      }
+    },
+    { "name": "Command Pick",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-pick.svg"
+        }
+      }
+    },
+    { "name": "Command Responsivemode",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-responsivemode.svg"
+        }
+      }
+    },
+    { "name": "Command Rulers",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-rulers.svg"
+        }
+      }
+    },
+    { "name": "Command Screenshot",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-command-screenshot.svg"
+        }
+      }
+    },
+    { "name": "Commandline Icon",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-commandline-icon.svg"
+        }
+      }
+    },
+    { "name": "Console Input",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-console-input.svg"
+        }
+      }
+    },
+    { "name": "Console Output",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-console-output.svg"
+        }
+      }
+    },
+    { "name": "Debugger Step In",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-debugger-step-in.svg"
+        }
+      }
+    },
+    { "name": "Debugger Step Out",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-debugger-step-out.svg"
+        }
+      }
+    },
+    { "name": "Debugger Step Over",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-debugger-step-over.svg"
+        }
+      }
+    },
+    { "name": "Debugging Devices",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-debugging-devices.svg"
+        }
+      }
+    },
+    { "name": "Debugging Workers",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-debugging-workers.svg"
+        }
+      }
+    },
+    { "name": "Developer Panel",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-developer-panel.svg"
+        }
+      }
+    },
+    { "name": "Developer",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-developer.svg"
+        }
+      }
+    },
+    { "name": "Diff",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-diff.svg"
+        }
+      }
+    },
+    { "name": "Dir Close",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-dir-close.svg"
+        }
+      }
+    },
+    { "name": "Dir Open",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-dir-open.svg"
+        }
+      }
+    },
+    { "name": "Dock Bottom",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-dock-bottom.svg"
+        }
+      }
+    },
+    { "name": "Dock Side",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-dock-side.svg"
+        }
+      }
+    },
+    { "name": "Dock Undock",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-dock-undock.svg"
+        }
+      }
+    },
+    { "name": "Fast Forward",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-fast-forward.svg"
+        }
+      }
+    },
+    { "name": "Filter",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-filter.svg"
+        }
+      }
+    },
+    { "name": "Geometry Editor",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-geometry-editor.svg"
+        }
+      }
+    },
+    { "name": "Globe",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-globe.svg"
+        }
+      }
+    },
+    { "name": "Import",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-import.svg"
+        }
+      }
+    },
+    { "name": "Item Toggle",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-item-toggle.svg"
+        }
+      }
+    },
+    { "name": "Pane Collapse",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-pane-collapse.svg"
+        }
+      }
+    },
+    { "name": "Pane Expand",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-pane-expand.svg"
+        }
+      }
+    },
+    { "name": "Pause",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-pause.svg"
+        }
+      }
+    },
+    { "name": "Play",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-play.svg"
+        }
+      }
+    },
+    { "name": "Power",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-power.svg"
+        }
+      }
+    },
+    { "name": "Promise Debugger",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-promise-debugger.svg"
+        }
+      }
+    },
+    { "name": "Pseudo Class",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-pseudo-class.svg"
+        }
+      }
+    },
+    { "name": "Rewind",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-rewind.svg"
+        }
+      }
+    },
+    { "name": "Rotate Viewport",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-rotate-viewport.svg"
+        }
+      }
+    },
+    { "name": "Search",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-search.svg"
+        }
+      }
+    },
+    { "name": "Tool Canvas",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-canvas.svg"
+        }
+      }
+    },
+    { "name": "Tool Debugger",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-debugger.svg"
+        }
+      }
+    },
+    { "name": "Tool Dom",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-dom.svg"
+        }
+      }
+    },
+    { "name": "Tool Inspector",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-inspector.svg"
+        }
+      }
+    },
+    { "name": "Tool Memory",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-memory.svg"
+        }
+      }
+    },
+    { "name": "Tool Network",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-network.svg"
+        }
+      }
+    },
+    { "name": "Tool Options",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-options.svg"
+        }
+      }
+    },
+    { "name": "Tool Profiler",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-profiler.svg"
+        }
+      }
+    },
+    { "name": "Tool Scratchpad",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-scratchpad.svg"
+        }
+      }
+    },
+    { "name": "Tool Shadereditor",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-shadereditor.svg"
+        }
+      }
+    },
+    { "name": "Tool Storage",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-storage.svg"
+        }
+      }
+    },
+    { "name": "Tool Styleeditor",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-styleeditor.svg"
+        }
+      }
+    },
+    { "name": "Tool Webaudio",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-webaudio.svg"
+        }
+      }
+    },
+    { "name": "Tool Webconsole",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-tool-webconsole.svg"
+        }
+      }
+    },
+    { "name": "Touch Events",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-touch-events.svg"
+        }
+      }
+    },
+    { "name": "Webide",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer/deprecated-webide.svg"
+        }
+      }
+    },
+    { "name": "Available Updates",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/available-updates-16.svg"
+        }
+      }
+    },
+    { "name": "Dictionaries",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/dictionaries-16.svg"
+        }
+      }
+    },
+    { "name": "Experiments",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/experiments-16.svg"
+        }
+      }
+    },
+    { "name": "Extensions",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/extensions-16.svg"
+        }
+      }
+    },
+    { "name": "Get Add Ons",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/get-add-ons-16.svg"
+        }
+      }
+    },
+    { "name": "Legacy Extension",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/legacy-extension.svg"
+        }
+      }
+    },
+    { "name": "Plugin",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/plugin-16.svg"
+        }
+      }
+    },
+    { "name": "Recent Updates",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/recent-updates-16.svg"
+        }
+      }
+    },
+    { "name": "Search",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/search-16.svg"
+        }
+      }
+    },
+    { "name": "Themes",
+      "tags": [],
+      "categories": ["extensions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/extensions/themes-16.svg"
+        }
+      }
+    },
+    { "name": "Settings",
+      "tags": [],
+      "categories": ["general", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/deprecated-settings.svg"
+        }
+      }
+    },
+    { "name": "Extensions",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/extensions-16.svg"
+        }
+      }
+    },
+    { "name": "Mail",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/mail-16.svg"
+        }
+      }
+    },
+    { "name": "Preferences Macos",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/preferences-16-macos.svg"
+        }
+      }
+    },
+    { "name": "Privatebrowsing",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/privatebrowsing-16.svg"
+        }
+      }
+    },
+    { "name": "Quit",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/quit-16.svg"
+        }
+      }
+    },
+    { "name": "Share Macos",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/share-16-macos.svg"
+        }
+      }
+    },
+    { "name": "Share Windows",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/share-16-windows.svg"
+        }
+      }
+    },
+    { "name": "Sync",
+      "tags": [],
+      "categories": ["general"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/general/sync-16.svg"
+        }
+      }
+    },
+    { "name": "Audio Mute",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/audio-16-mute.svg"
+        }
+      }
+    },
+    { "name": "Audio",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/audio-16.svg"
+        }
+      }
+    },
+    { "name": "Caption",
+      "tags": [],
+      "categories": ["media", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/deprecated-caption.svg"
+        }
+      }
+    },
+    { "name": "Cast",
+      "tags": [],
+      "categories": ["media", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/deprecated-cast.svg"
+        }
+      }
+    },
+    { "name": "Chapter",
+      "tags": [],
+      "categories": ["media", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/deprecated-chapter.svg"
+        }
+      }
+    },
+    { "name": "Pause",
+      "tags": [],
+      "categories": ["media", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/deprecated-pause.svg"
+        }
+      }
+    },
+    { "name": "Rewind",
+      "tags": [],
+      "categories": ["media", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/deprecated-rewind.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen Disabled",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/fullscreen-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/fullscreen-16.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen Exit",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/fullscreen-exit-16.svg"
+        }
+      }
+    },
+    { "name": "Play",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/media/play-16.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Down 12",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-down-12.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Down",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-down-16.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Left 12",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-left-12.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Left",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-left-16.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Right 12",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-right-12.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Right",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-right-16.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Up 12",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-up-12.svg"
+        }
+      }
+    },
+    { "name": "Arrowhead Up",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/arrowhead-up-16.svg"
+        }
+      }
+    },
+    { "name": "Back",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/back-16.svg"
+        }
+      }
+    },
+    { "name": "Close",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/close-16.svg"
+        }
+      }
+    },
+    { "name": "Go",
+      "tags": [],
+      "categories": ["navigation", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/deprecated-go.svg"
+        }
+      }
+    },
+    { "name": "Tab Groups",
+      "tags": [],
+      "categories": ["navigation", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/deprecated-tab-groups.svg"
+        }
+      }
+    },
+    { "name": "Forget",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/forget-16.svg"
+        }
+      }
+    },
+    { "name": "Forward",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/forward-16.svg"
+        }
+      }
+    },
+    { "name": "Home",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/home-16.svg"
+        }
+      }
+    },
+    { "name": "Menu",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/menu-16.svg"
+        }
+      }
+    },
+    { "name": "Overflow",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/overflow-16.svg"
+        }
+      }
+    },
+    { "name": "Privatebrowsing",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/privatebrowsing-16.svg"
+        }
+      }
+    },
+    { "name": "Refresh",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/refresh-16.svg"
+        }
+      }
+    },
+    { "name": "Search",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/search-16.svg"
+        }
+      }
+    },
+    { "name": "Sidebar",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/sidebar-16.svg"
+        }
+      }
+    },
+    { "name": "Stop",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/stop-16.svg"
+        }
+      }
+    },
+    { "name": "Tab",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/tab-16.svg"
+        }
+      }
+    },
+    { "name": "Tab New",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/tab-new-16.svg"
+        }
+      }
+    },
+    { "name": "Window",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/window-16.svg"
+        }
+      }
+    },
+    { "name": "Window New",
+      "tags": [],
+      "categories": ["navigation"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/navigation/window-new-16.svg"
+        }
+      }
+    },
+    { "name": "Accessibility",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/accessibility-16.svg"
+        }
+      }
+    },
+    { "name": "Check",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/check-16.svg"
+        }
+      }
+    },
+    { "name": "Customize",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/customize-16.svg"
+        }
+      }
+    },
+    { "name": "Delete",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/delete-16.svg"
+        }
+      }
+    },
+    { "name": "Developer",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/developer-16.svg"
+        }
+      }
+    },
+    { "name": "Device Desktop",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/device-desktop-16.svg"
+        }
+      }
+    },
+    { "name": "Device Mobile",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/device-mobile-16.svg"
+        }
+      }
+    },
+    { "name": "Folder",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/folder-16.svg"
+        }
+      }
+    },
+    { "name": "Formfill",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/formfill-16.svg"
+        }
+      }
+    },
+    { "name": "Highlights",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/highlights-16.svg"
+        }
+      }
+    },
+    { "name": "Library",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/library-16.svg"
+        }
+      }
+    },
+    { "name": "Link",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/link-16.svg"
+        }
+      }
+    },
+    { "name": "More",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/more-16.svg"
+        }
+      }
+    },
+    { "name": "New",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/new-16.svg"
+        }
+      }
+    },
+    { "name": "Open In New",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/open-in-new-16.svg"
+        }
+      }
+    },
+    { "name": "Pin 12",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/pin-12.svg"
+        }
+      }
+    },
+    { "name": "Pin",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/pin-16.svg"
+        }
+      }
+    },
+    { "name": "Pinremove",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/pinremove-16.svg"
+        }
+      }
+    },
+    { "name": "Report",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/report-16.svg"
+        }
+      }
+    },
+    { "name": "Screenshot",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/screenshot-16.svg"
+        }
+      }
+    },
+    { "name": "Subitem",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/subitem-16.svg"
+        }
+      }
+    },
+    { "name": "Topsites",
+      "tags": [],
+      "categories": ["new"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/new/topsites-16.svg"
+        }
+      }
+    },
+    { "name": "Permissions",
+      "tags": [],
+      "categories": ["permissions", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/deprecated-permissions.svg"
+        }
+      }
+    },
+    { "name": "Location Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/location-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Location Mac Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/location-16-mac-disabled.svg"
+        }
+      }
+    },
+    { "name": "Location Mac",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/location-16-mac.svg"
+        }
+      }
+    },
+    { "name": "Location Win Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/location-16-win-disabled.svg"
+        }
+      }
+    },
+    { "name": "Location Win",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/location-16-win.svg"
+        }
+      }
+    },
+    { "name": "Location",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/location-16.svg"
+        }
+      }
+    },
+    { "name": "Login",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/login-16.svg"
+        }
+      }
+    },
+    { "name": "Microphone Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/microphone-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Microphone",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/microphone-16.svg"
+        }
+      }
+    },
+    { "name": "Mouse Pointer Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/mouse-pointer-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Mouse Pointer 6",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/mouse-pointer-6.svg"
+        }
+      }
+    },
+    { "name": "Notification Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/notification-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Notification",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/notification-16.svg"
+        }
+      }
+    },
+    { "name": "Plugin Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/plugin-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Plugin",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/plugin-16.svg"
+        }
+      }
+    },
+    { "name": "Popup Block",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/popup-block-16.svg"
+        }
+      }
+    },
+    { "name": "Screen Share Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/screen-share-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Screen Share",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/screen-share-16.svg"
+        }
+      }
+    },
+    { "name": "Store Data Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/store-data-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Store Data",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/store-data-16.svg"
+        }
+      }
+    },
+    { "name": "Video Recorder Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/video-recorder-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Video Recorder",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/permissions/video-recorder-16.svg"
+        }
+      }
+    },
+    { "name": "Bookmark Filled",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/bookmark-16-filled.svg"
+        }
+      }
+    },
+    { "name": "Bookmark Outline",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/bookmark-16-Outline.svg"
+        }
+      }
+    },
+    { "name": "Bookmark Remove",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/bookmark-remove-16.svg"
+        }
+      }
+    },
+    { "name": "Bookmarksmenu",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/bookmarksmenu-16.svg"
+        }
+      }
+    },
+    { "name": "Import Export",
+      "tags": [],
+      "categories": ["places", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/deprecated-import-export.svg"
+        }
+      }
+    },
+    { "name": "List",
+      "tags": [],
+      "categories": ["places", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/deprecated-list.svg"
+        }
+      }
+    },
+    { "name": "Organize",
+      "tags": [],
+      "categories": ["places", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/deprecated-organize.svg"
+        }
+      }
+    },
+    { "name": "Search History",
+      "tags": [],
+      "categories": ["places", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/deprecated-search-history.svg"
+        }
+      }
+    },
+    { "name": "Download",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/download-16.svg"
+        }
+      }
+    },
+    { "name": "History",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/history-16.svg"
+        }
+      }
+    },
+    { "name": "Subscribe",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/places/subscribe-16.svg"
+        }
+      }
+    },
+    { "name": "Exit",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/deprecated-exit.svg"
+        }
+      }
+    },
+    { "name": "Narrate Faster",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/deprecated-narrate-faster.svg"
+        }
+      }
+    },
+    { "name": "Narrate Slower",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/deprecated-narrate-slower.svg"
+        }
+      }
+    },
+    { "name": "Narrate",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/deprecated-narrate.svg"
+        }
+      }
+    },
+    { "name": "Type Controls Serif",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/deprecated-type-controls-serif.svg"
+        }
+      }
+    },
+    { "name": "Type Controls",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/deprecated-type-controls.svg"
+        }
+      }
+    },
+    { "name": "Pocket",
+      "tags": [],
+      "categories": ["reader"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/pocket-16.svg"
+        }
+      }
+    },
+    { "name": "Pocket List",
+      "tags": [],
+      "categories": ["reader"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/pocket-list-16.svg"
+        }
+      }
+    },
+    { "name": "Readermode",
+      "tags": [],
+      "categories": ["reader"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/reader/readermode-16.svg"
+        }
+      }
+    },
+    { "name": "Identity Mixed Active Blocked",
+      "tags": [],
+      "categories": ["security", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/deprecated-identity-mixed-active-blocked.svg"
+        }
+      }
+    },
+    { "name": "Identity Mixed Active Loaded",
+      "tags": [],
+      "categories": ["security", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/deprecated-identity-mixed-active-loaded.svg"
+        }
+      }
+    },
+    { "name": "Identity Mixed Passive Loaded",
+      "tags": [],
+      "categories": ["security", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/deprecated-identity-mixed-passive-loaded.svg"
+        }
+      }
+    },
+    { "name": "Identity Not Secure",
+      "tags": [],
+      "categories": ["security", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/deprecated-identity-not-secure.svg"
+        }
+      }
+    },
+    { "name": "Identity Secure",
+      "tags": [],
+      "categories": ["security", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/deprecated-identity-secure.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon Hover",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/identity-icon-hover.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon Notice Hover",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/identity-icon-notice-hover.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon Notice",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/identity-icon-notice.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/identity-icon.svg"
+        }
+      }
+    },
+    { "name": "Tracking Protection Disabled",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/tracking-protection-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Tracking Protection",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/security/tracking-protection-16.svg"
         }
       }
     }

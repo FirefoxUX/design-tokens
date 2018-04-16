@@ -10,7 +10,7 @@
     "grey-90-a60",
     "grey-90-a80",
     "red-60",
-    "white",
+    "white-100",
     "yellow-60"
   ],
   "icons": [
@@ -19,7 +19,7 @@
       "categories": ["alert"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/alert/help-16.svg"
+          "16": "icons/desktop/help-16.svg"
         }
       }
     },
@@ -28,7 +28,7 @@
       "categories": ["alert"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/alert/info-16.svg"
+          "16": "icons/desktop/info-16.svg"
         }
       }
     },
@@ -37,7 +37,7 @@
       "categories": ["alert"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/alert/warning-16.svg"
+          "16": "icons/desktop/warning-16.svg"
         }
       }
     },
@@ -46,7 +46,7 @@
       "categories": ["badges", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/badges/deprecated-update-failed.svg"
+          "16": "icons/desktop/update-failed-16.svg"
         }
       }
     },
@@ -55,16 +55,7 @@
       "categories": ["badges", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/badges/deprecated-update-success.svg"
-        }
-      }
-    },
-    { "name": "Glyph",
-      "tags": [],
-      "categories": ["branding"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/branding/glyph.svg"
+          "16": "icons/desktop/update-success-16.svg"
         }
       }
     },
@@ -73,7 +64,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/copy-16.svg"
+          "16": "icons/desktop/copy-16.svg"
         }
       }
     },
@@ -82,7 +73,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/cut-16.svg"
+          "16": "icons/desktop/cut-16.svg"
         }
       }
     },
@@ -91,7 +82,7 @@
       "categories": ["content", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/deprecated-character-encoding.svg"
+          "16": "icons/desktop/character-encoding-16.svg"
         }
       }
     },
@@ -100,7 +91,7 @@
       "categories": ["content", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/deprecated-zoom-in.svg"
+          "16": "icons/desktop/zoom-in-16.svg"
         }
       }
     },
@@ -109,7 +100,7 @@
       "categories": ["content", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/deprecated-zoom-out.svg"
+          "16": "icons/desktop/zoom-out-16.svg"
         }
       }
     },
@@ -118,7 +109,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/fullscreen-16-disabled.svg"
+          "16": "icons/desktop/fullscreen-16-disabled.svg"
         }
       }
     },
@@ -127,7 +118,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/fullscreen-16.svg"
+          "16": "icons/desktop/fullscreen-16.svg"
         }
       }
     },
@@ -136,7 +127,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/fullscreen-exit-16.svg"
+          "16": "icons/desktop/fullscreen-exit-16.svg"
         }
       }
     },
@@ -145,7 +136,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/open-16.svg"
+          "16": "icons/desktop/open-16.svg"
         }
       }
     },
@@ -154,7 +145,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/paste-16.svg"
+          "16": "icons/desktop/paste-16.svg"
         }
       }
     },
@@ -163,7 +154,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/print-16.svg"
+          "16": "icons/desktop/print-16.svg"
         }
       }
     },
@@ -172,7 +163,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/save-16.svg"
+          "16": "icons/desktop/save-16.svg"
         }
       }
     },
@@ -181,7 +172,7 @@
       "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/content/search-16.svg"
+          "16": "icons/desktop/search-16.svg"
         }
       }
     },
@@ -190,7 +181,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-add.svg"
+          "16": "icons/desktop/developer-add-16.svg"
         }
       }
     },
@@ -199,7 +190,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-app.svg"
+          "16": "icons/desktop/developer-app-16.svg"
         }
       }
     },
@@ -208,16 +199,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-clear.svg"
-        }
-      }
-    },
-    { "name": "Close",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/developer/deprecated-close.svg"
+          "16": "icons/desktop/developer-clear-16.svg"
         }
       }
     },
@@ -226,7 +208,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-console.svg"
+          "16": "icons/desktop/developer-command-console-16.svg"
         }
       }
     },
@@ -235,7 +217,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-eyedropper.svg"
+          "16": "icons/desktop/developer-command-eyedropper-16.svg"
         }
       }
     },
@@ -244,7 +226,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-frames.svg"
+          "16": "icons/desktop/developer-command-frames-16.svg"
         }
       }
     },
@@ -253,7 +235,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-measure.svg"
+          "16": "icons/desktop/developer-command-measure-16.svg"
         }
       }
     },
@@ -262,7 +244,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-noautohide.svg"
+          "16": "icons/desktop/developer-command-noautohide-16.svg"
         }
       }
     },
@@ -271,7 +253,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-paintflashing.svg"
+          "16": "icons/desktop/developer-command-paintflashing-16.svg"
         }
       }
     },
@@ -280,7 +262,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-pick.svg"
+          "16": "icons/desktop/developer-command-pick-16.svg"
         }
       }
     },
@@ -289,7 +271,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-responsivemode.svg"
+          "16": "icons/desktop/developer-command-responsivemode-16.svg"
         }
       }
     },
@@ -298,7 +280,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-rulers.svg"
+          "16": "icons/desktop/developer-command-rulers-16.svg"
         }
       }
     },
@@ -307,7 +289,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-command-screenshot.svg"
+          "16": "icons/desktop/developer-command-screenshot-16.svg"
         }
       }
     },
@@ -316,7 +298,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-commandline-icon.svg"
+          "16": "icons/desktop/developer-commandline-icon-16.svg"
         }
       }
     },
@@ -325,7 +307,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-console-input.svg"
+          "12": "icons/desktop/developer-console-input-12.svg"
         }
       }
     },
@@ -334,7 +316,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-console-output.svg"
+          "12": "icons/desktop/developer-console-output-12.svg"
         }
       }
     },
@@ -343,7 +325,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-debugger-step-in.svg"
+          "16": "icons/desktop/developer-debugger-step-in.svg"
         }
       }
     },
@@ -352,7 +334,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-debugger-step-out.svg"
+          "16": "icons/desktop/developer-debugger-step-out.svg"
         }
       }
     },
@@ -361,7 +343,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-debugger-step-over.svg"
+          "16": "icons/desktop/developer-debugger-step-over.svg"
         }
       }
     },
@@ -370,7 +352,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-debugging-devices.svg"
+          "16": "icons/desktop/developer-debugging-devices.svg"
         }
       }
     },
@@ -379,7 +361,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-debugging-workers.svg"
+          "16": "icons/desktop/developer-debugging-workers.svg"
         }
       }
     },
@@ -388,16 +370,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-developer-panel.svg"
-        }
-      }
-    },
-    { "name": "Developer",
-      "tags": [],
-      "categories": ["developer", "deprecated"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/developer/deprecated-developer.svg"
+          "16": "icons/desktop/developer-panel.svg"
         }
       }
     },
@@ -406,7 +379,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-diff.svg"
+          "16": "icons/desktop/developer-diff.svg"
         }
       }
     },
@@ -415,7 +388,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-dir-close.svg"
+          "16": "icons/desktop/developer-dir-close.svg"
         }
       }
     },
@@ -424,7 +397,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-dir-open.svg"
+          "16": "icons/desktop/developer-dir-open.svg"
         }
       }
     },
@@ -433,7 +406,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-dock-bottom.svg"
+          "16": "icons/desktop/developer-dock-bottom.svg"
         }
       }
     },
@@ -442,7 +415,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-dock-side.svg"
+          "16": "icons/desktop/developer-dock-side.svg"
         }
       }
     },
@@ -451,7 +424,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-dock-undock.svg"
+          "16": "icons/desktop/developer-dock-undock.svg"
         }
       }
     },
@@ -460,7 +433,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-fast-forward.svg"
+          "16": "icons/desktop/developer-fast-forward.svg"
         }
       }
     },
@@ -469,7 +442,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-filter.svg"
+          "16": "icons/desktop/developer-filter.svg"
         }
       }
     },
@@ -478,7 +451,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-geometry-editor.svg"
+          "16": "icons/desktop/developer-geometry-editor.svg"
         }
       }
     },
@@ -487,7 +460,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-globe.svg"
+          "16": "icons/desktop/developer-globe.svg"
         }
       }
     },
@@ -496,7 +469,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-import.svg"
+          "16": "icons/desktop/developer-import.svg"
         }
       }
     },
@@ -505,7 +478,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-item-toggle.svg"
+          "16": "icons/desktop/developer-item-toggle.svg"
         }
       }
     },
@@ -514,7 +487,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-pane-collapse.svg"
+          "16": "icons/desktop/developer-pane-collapse.svg"
         }
       }
     },
@@ -523,7 +496,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-pane-expand.svg"
+          "16": "icons/desktop/developer-pane-expand.svg"
         }
       }
     },
@@ -532,7 +505,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-pause.svg"
+          "16": "icons/desktop/developer-pause.svg"
         }
       }
     },
@@ -541,7 +514,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-play.svg"
+          "16": "icons/desktop/developer-play.svg"
         }
       }
     },
@@ -550,7 +523,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-power.svg"
+          "16": "icons/desktop/developer-power.svg"
         }
       }
     },
@@ -559,7 +532,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-promise-debugger.svg"
+          "16": "icons/desktop/developer-promise-debugger.svg"
         }
       }
     },
@@ -568,7 +541,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-pseudo-class.svg"
+          "16": "icons/desktop/developer-pseudo-class.svg"
         }
       }
     },
@@ -577,7 +550,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-rewind.svg"
+          "16": "icons/desktop/developer-rewind.svg"
         }
       }
     },
@@ -586,7 +559,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-rotate-viewport.svg"
+          "16": "icons/desktop/developer-rotate-viewport.svg"
         }
       }
     },
@@ -595,7 +568,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-search.svg"
+          "16": "icons/desktop/developer-search.svg"
         }
       }
     },
@@ -604,7 +577,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-canvas.svg"
+          "16": "icons/desktop/developer-tool-canvas.svg"
         }
       }
     },
@@ -613,7 +586,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-debugger.svg"
+          "16": "icons/desktop/developer-tool-debugger.svg"
         }
       }
     },
@@ -622,7 +595,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-dom.svg"
+          "16": "icons/desktop/developer-tool-dom.svg"
         }
       }
     },
@@ -631,7 +604,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-inspector.svg"
+          "16": "icons/desktop/developer-tool-inspector.svg"
         }
       }
     },
@@ -640,7 +613,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-memory.svg"
+          "16": "icons/desktop/developer-tool-memory.svg"
         }
       }
     },
@@ -649,7 +622,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-network.svg"
+          "16": "icons/desktop/developer-tool-network.svg"
         }
       }
     },
@@ -658,7 +631,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-options.svg"
+          "16": "icons/desktop/developer-tool-options.svg"
         }
       }
     },
@@ -667,7 +640,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-profiler.svg"
+          "16": "icons/desktop/developer-tool-profiler.svg"
         }
       }
     },
@@ -676,7 +649,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-scratchpad.svg"
+          "16": "icons/desktop/developer-tool-scratchpad.svg"
         }
       }
     },
@@ -685,7 +658,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-shadereditor.svg"
+          "16": "icons/desktop/developer-tool-shadereditor.svg"
         }
       }
     },
@@ -694,7 +667,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-storage.svg"
+          "16": "icons/desktop/developer-tool-storage.svg"
         }
       }
     },
@@ -703,7 +676,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-styleeditor.svg"
+          "16": "icons/desktop/developer-tool-styleeditor.svg"
         }
       }
     },
@@ -712,7 +685,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-webaudio.svg"
+          "16": "icons/desktop/developer-tool-webaudio.svg"
         }
       }
     },
@@ -721,7 +694,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-tool-webconsole.svg"
+          "16": "icons/desktop/developer-tool-webconsole.svg"
         }
       }
     },
@@ -730,7 +703,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-touch-events.svg"
+          "16": "icons/desktop/developer-touch-events.svg"
         }
       }
     },
@@ -739,7 +712,7 @@
       "categories": ["developer", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/developer/deprecated-webide.svg"
+          "16": "icons/desktop/developer-webide.svg"
         }
       }
     },
@@ -748,7 +721,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/available-updates-16.svg"
+          "16": "icons/desktop/available-updates-16.svg"
         }
       }
     },
@@ -757,7 +730,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/dictionaries-16.svg"
+          "16": "icons/desktop/dictionaries-16.svg"
         }
       }
     },
@@ -766,7 +739,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/experiments-16.svg"
+          "16": "icons/desktop/experiments-16.svg"
         }
       }
     },
@@ -775,7 +748,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/extensions-16.svg"
+          "16": "icons/desktop/extensions-16.svg"
         }
       }
     },
@@ -784,7 +757,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/get-add-ons-16.svg"
+          "16": "icons/desktop/get-add-ons-16.svg"
         }
       }
     },
@@ -793,7 +766,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/legacy-extension.svg"
+          "16": "icons/desktop/legacy-extension.svg"
         }
       }
     },
@@ -802,7 +775,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/plugin-16.svg"
+          "16": "icons/desktop/plugin-16.svg"
         }
       }
     },
@@ -811,7 +784,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/recent-updates-16.svg"
+          "16": "icons/desktop/recent-updates-16.svg"
         }
       }
     },
@@ -820,7 +793,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/search-16.svg"
+          "16": "icons/desktop/search-16.svg"
         }
       }
     },
@@ -829,16 +802,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/extensions/themes-16.svg"
-        }
-      }
-    },
-    { "name": "Settings",
-      "tags": [],
-      "categories": ["general", "deprecated"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/general/deprecated-settings.svg"
+          "16": "icons/desktop/themes-16.svg"
         }
       }
     },
@@ -847,7 +811,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/extensions-16.svg"
+          "16": "icons/desktop/extensions-16.svg"
         }
       }
     },
@@ -856,7 +820,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/mail-16.svg"
+          "16": "icons/desktop/mail-16.svg"
         }
       }
     },
@@ -865,7 +829,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/preferences-16-macos.svg"
+          "16": "icons/desktop/preferences-16-macos.svg"
         }
       }
     },
@@ -874,7 +838,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/privatebrowsing-16.svg"
+          "16": "icons/desktop/privatebrowsing-16.svg"
         }
       }
     },
@@ -883,7 +847,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/quit-16.svg"
+          "16": "icons/desktop/quit-16.svg"
         }
       }
     },
@@ -892,7 +856,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/share-16-macos.svg"
+          "16": "icons/desktop/share-16-macos.svg"
         }
       }
     },
@@ -901,7 +865,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/share-16-windows.svg"
+          "16": "icons/desktop/share-16-windows.svg"
         }
       }
     },
@@ -910,7 +874,7 @@
       "categories": ["general"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/general/sync-16.svg"
+          "16": "icons/desktop/sync-16.svg"
         }
       }
     },
@@ -919,7 +883,7 @@
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/audio-16-mute.svg"
+          "16": "icons/desktop/audio-16-mute.svg"
         }
       }
     },
@@ -928,7 +892,7 @@
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/audio-16.svg"
+          "16": "icons/desktop/audio-16.svg"
         }
       }
     },
@@ -937,7 +901,7 @@
       "categories": ["media", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/deprecated-caption.svg"
+          "16": "icons/desktop/caption-16.svg"
         }
       }
     },
@@ -946,7 +910,7 @@
       "categories": ["media", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/deprecated-cast.svg"
+          "16": "icons/desktop/cast-16.svg"
         }
       }
     },
@@ -955,7 +919,7 @@
       "categories": ["media", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/deprecated-chapter.svg"
+          "16": "icons/desktop/chapter-16.svg"
         }
       }
     },
@@ -964,7 +928,7 @@
       "categories": ["media", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/deprecated-pause.svg"
+          "16": "icons/desktop/pause-16.svg"
         }
       }
     },
@@ -973,7 +937,7 @@
       "categories": ["media", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/deprecated-rewind.svg"
+          "16": "icons/desktop/rewind-16.svg"
         }
       }
     },
@@ -982,7 +946,7 @@
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/fullscreen-16-disabled.svg"
+          "16": "icons/desktop/fullscreen-16-disabled.svg"
         }
       }
     },
@@ -991,7 +955,7 @@
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/fullscreen-16.svg"
+          "16": "icons/desktop/fullscreen-16.svg"
         }
       }
     },
@@ -1000,7 +964,7 @@
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/fullscreen-exit-16.svg"
+          "16": "icons/desktop/fullscreen-exit-16.svg"
         }
       }
     },
@@ -1009,16 +973,7 @@
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/media/play-16.svg"
-        }
-      }
-    },
-    { "name": "Arrowhead Down 12",
-      "tags": [],
-      "categories": ["navigation"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-down-12.svg"
+          "16": "icons/desktop/play-16.svg"
         }
       }
     },
@@ -1027,16 +982,8 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-down-16.svg"
-        }
-      }
-    },
-    { "name": "Arrowhead Left 12",
-      "tags": [],
-      "categories": ["navigation"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-left-12.svg"
+          "12": "icons/desktop/arrowhead-down-12.svg",
+          "16": "icons/desktop/arrowhead-down-16.svg"
         }
       }
     },
@@ -1045,16 +992,8 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-left-16.svg"
-        }
-      }
-    },
-    { "name": "Arrowhead Right 12",
-      "tags": [],
-      "categories": ["navigation"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-right-12.svg"
+          "12": "icons/desktop/arrowhead-left-12.svg",
+          "16": "icons/desktop/arrowhead-left-16.svg"
         }
       }
     },
@@ -1063,16 +1002,8 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-right-16.svg"
-        }
-      }
-    },
-    { "name": "Arrowhead Up 12",
-      "tags": [],
-      "categories": ["navigation"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-up-12.svg"
+          "12": "icons/desktop/arrowhead-right-12.svg",
+          "16": "icons/desktop/arrowhead-right-16.svg"
         }
       }
     },
@@ -1081,7 +1012,8 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/arrowhead-up-16.svg"
+          "12": "icons/desktop/arrowhead-up-12.svg",
+          "16": "icons/desktop/arrowhead-up-16.svg"
         }
       }
     },
@@ -1090,7 +1022,13 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/back-16.svg"
+          "16": "icons/desktop/back-16.svg"
+        },
+        "ios": {
+          "24": "icons/ios/back-24.svg"
+        },
+        "android": {
+          "24": "icons/android/back-24.svg"
         }
       }
     },
@@ -1099,7 +1037,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/close-16.svg"
+          "16": "icons/desktop/close-16.svg"
         }
       }
     },
@@ -1108,7 +1046,7 @@
       "categories": ["navigation", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/deprecated-go.svg"
+          "12": "icons/desktop/go-12.svg"
         }
       }
     },
@@ -1117,7 +1055,7 @@
       "categories": ["navigation", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/deprecated-tab-groups.svg"
+          "12": "icons/desktop/tab-groups-12.svg"
         }
       }
     },
@@ -1126,7 +1064,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/forget-16.svg"
+          "16": "icons/desktop/forget-16.svg"
         }
       }
     },
@@ -1135,7 +1073,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/forward-16.svg"
+          "16": "icons/desktop/forward-16.svg"
         }
       }
     },
@@ -1144,7 +1082,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/home-16.svg"
+          "16": "icons/desktop/home-16.svg"
         }
       }
     },
@@ -1153,7 +1091,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/menu-16.svg"
+          "16": "icons/desktop/menu-16.svg"
         }
       }
     },
@@ -1162,7 +1100,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/overflow-16.svg"
+          "16": "icons/desktop/overflow-16.svg"
         }
       }
     },
@@ -1171,7 +1109,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/privatebrowsing-16.svg"
+          "16": "icons/desktop/privatebrowsing-16.svg"
         }
       }
     },
@@ -1180,7 +1118,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/refresh-16.svg"
+          "16": "icons/desktop/refresh-16.svg"
         }
       }
     },
@@ -1189,7 +1127,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/search-16.svg"
+          "16": "icons/desktop/search-16.svg"
         }
       }
     },
@@ -1198,7 +1136,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/sidebar-16.svg"
+          "16": "icons/desktop/sidebar-16.svg"
         }
       }
     },
@@ -1207,7 +1145,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/stop-16.svg"
+          "16": "icons/desktop/stop-16.svg"
         }
       }
     },
@@ -1216,7 +1154,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/tab-16.svg"
+          "16": "icons/desktop/tab-16.svg"
         }
       }
     },
@@ -1225,7 +1163,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/tab-new-16.svg"
+          "16": "icons/desktop/tab-new-16.svg"
         }
       }
     },
@@ -1234,7 +1172,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/window-16.svg"
+          "16": "icons/desktop/window-16.svg"
         }
       }
     },
@@ -1243,7 +1181,7 @@
       "categories": ["navigation"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/navigation/window-new-16.svg"
+          "16": "icons/desktop/window-new-16.svg"
         }
       }
     },
@@ -1252,7 +1190,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/accessibility-16.svg"
+          "16": "icons/desktop/accessibility-16.svg"
         }
       }
     },
@@ -1261,7 +1199,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/check-16.svg"
+          "16": "icons/desktop/check-16.svg"
         }
       }
     },
@@ -1270,7 +1208,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/customize-16.svg"
+          "16": "icons/desktop/customize-16.svg"
         }
       }
     },
@@ -1279,7 +1217,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/delete-16.svg"
+          "16": "icons/desktop/delete-16.svg"
         }
       }
     },
@@ -1288,7 +1226,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/developer-16.svg"
+          "16": "icons/desktop/developer-16.svg"
         }
       }
     },
@@ -1297,7 +1235,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/device-desktop-16.svg"
+          "16": "icons/desktop/device-desktop-16.svg"
         }
       }
     },
@@ -1306,7 +1244,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/device-mobile-16.svg"
+          "16": "icons/desktop/device-mobile-16.svg"
         }
       }
     },
@@ -1315,7 +1253,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/folder-16.svg"
+          "16": "icons/desktop/folder-16.svg"
         }
       }
     },
@@ -1324,7 +1262,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/formfill-16.svg"
+          "16": "icons/desktop/formfill-16.svg"
         }
       }
     },
@@ -1333,7 +1271,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/highlights-16.svg"
+          "16": "icons/desktop/highlights-16.svg"
         }
       }
     },
@@ -1342,7 +1280,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/library-16.svg"
+          "16": "icons/desktop/library-16.svg"
         }
       }
     },
@@ -1351,7 +1289,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/link-16.svg"
+          "16": "icons/desktop/link-16.svg"
         }
       }
     },
@@ -1360,7 +1298,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/more-16.svg"
+          "16": "icons/desktop/more-16.svg"
         }
       }
     },
@@ -1369,7 +1307,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/new-16.svg"
+          "16": "icons/desktop/new-16.svg"
         }
       }
     },
@@ -1378,16 +1316,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/open-in-new-16.svg"
-        }
-      }
-    },
-    { "name": "Pin 12",
-      "tags": [],
-      "categories": ["new"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/new/pin-12.svg"
+          "16": "icons/desktop/open-in-new-16.svg"
         }
       }
     },
@@ -1396,7 +1325,8 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/pin-16.svg"
+          "12": "icons/desktop/pin-12.svg",
+          "16": "icons/desktop/pin-16.svg"
         }
       }
     },
@@ -1405,7 +1335,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/pinremove-16.svg"
+          "16": "icons/desktop/pinremove-16.svg"
         }
       }
     },
@@ -1414,7 +1344,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/report-16.svg"
+          "16": "icons/desktop/report-16.svg"
         }
       }
     },
@@ -1423,7 +1353,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/screenshot-16.svg"
+          "16": "icons/desktop/screenshot-16.svg"
         }
       }
     },
@@ -1432,7 +1362,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/subitem-16.svg"
+          "16": "icons/desktop/subitem-16.svg"
         }
       }
     },
@@ -1441,7 +1371,7 @@
       "categories": ["new"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/new/topsites-16.svg"
+          "16": "icons/desktop/topsites-16.svg"
         }
       }
     },
@@ -1450,7 +1380,7 @@
       "categories": ["permissions", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/deprecated-permissions.svg"
+          "24": "icons/desktop/permissions-24.svg"
         }
       }
     },
@@ -1459,7 +1389,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/location-16-disabled.svg"
+          "16": "icons/desktop/location-16-disabled.svg"
         }
       }
     },
@@ -1468,7 +1398,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/location-16-mac-disabled.svg"
+          "16": "icons/desktop/location-16-mac-disabled.svg"
         }
       }
     },
@@ -1477,7 +1407,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/location-16-mac.svg"
+          "16": "icons/desktop/location-16-mac.svg"
         }
       }
     },
@@ -1486,7 +1416,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/location-16-win-disabled.svg"
+          "16": "icons/desktop/location-16-win-disabled.svg"
         }
       }
     },
@@ -1495,7 +1425,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/location-16-win.svg"
+          "16": "icons/desktop/location-16-win.svg"
         }
       }
     },
@@ -1504,7 +1434,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/location-16.svg"
+          "16": "icons/desktop/location-16.svg"
         }
       }
     },
@@ -1513,7 +1443,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/login-16.svg"
+          "16": "icons/desktop/login-16.svg"
         }
       }
     },
@@ -1522,7 +1452,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/microphone-16-disabled.svg"
+          "16": "icons/desktop/microphone-16-disabled.svg"
         }
       }
     },
@@ -1531,7 +1461,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/microphone-16.svg"
+          "16": "icons/desktop/microphone-16.svg"
         }
       }
     },
@@ -1540,7 +1470,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/mouse-pointer-16-disabled.svg"
+          "16": "icons/desktop/mouse-pointer-16-disabled.svg"
         }
       }
     },
@@ -1549,7 +1479,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/mouse-pointer-6.svg"
+          "16": "icons/desktop/mouse-pointer-16.svg"
         }
       }
     },
@@ -1558,7 +1488,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/notification-16-disabled.svg"
+          "16": "icons/desktop/notification-16-disabled.svg"
         }
       }
     },
@@ -1567,7 +1497,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/notification-16.svg"
+          "16": "icons/desktop/notification-16.svg"
         }
       }
     },
@@ -1576,7 +1506,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/plugin-16-disabled.svg"
+          "16": "icons/desktop/plugin-16-disabled.svg"
         }
       }
     },
@@ -1585,7 +1515,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/plugin-16.svg"
+          "16": "icons/desktop/plugin-16.svg"
         }
       }
     },
@@ -1594,7 +1524,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/popup-block-16.svg"
+          "16": "icons/desktop/popup-block-16.svg"
         }
       }
     },
@@ -1603,7 +1533,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/screen-share-16-disabled.svg"
+          "16": "icons/desktop/screen-share-16-disabled.svg"
         }
       }
     },
@@ -1612,7 +1542,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/screen-share-16.svg"
+          "16": "icons/desktop/screen-share-16.svg"
         }
       }
     },
@@ -1621,7 +1551,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/store-data-16-disabled.svg"
+          "16": "icons/desktop/store-data-16-disabled.svg"
         }
       }
     },
@@ -1630,7 +1560,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/store-data-16.svg"
+          "16": "icons/desktop/store-data-16.svg"
         }
       }
     },
@@ -1639,7 +1569,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/video-recorder-16-disabled.svg"
+          "16": "icons/desktop/video-recorder-16-disabled.svg"
         }
       }
     },
@@ -1648,7 +1578,7 @@
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/permissions/video-recorder-16.svg"
+          "16": "icons/desktop/video-recorder-16.svg"
         }
       }
     },
@@ -1657,7 +1587,7 @@
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/bookmark-16-filled.svg"
+          "16": "icons/desktop/bookmark-16-filled.svg"
         }
       }
     },
@@ -1666,7 +1596,7 @@
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/bookmark-16-Outline.svg"
+          "16": "icons/desktop/bookmark-16-outline.svg"
         }
       }
     },
@@ -1675,7 +1605,7 @@
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/bookmark-remove-16.svg"
+          "16": "icons/desktop/bookmark-remove-16.svg"
         }
       }
     },
@@ -1684,7 +1614,7 @@
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/bookmarksmenu-16.svg"
+          "16": "icons/desktop/bookmarksmenu-16.svg"
         }
       }
     },
@@ -1693,7 +1623,7 @@
       "categories": ["places", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/deprecated-import-export.svg"
+          "16": "icons/desktop/import-export-16.svg"
         }
       }
     },
@@ -1702,7 +1632,7 @@
       "categories": ["places", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/deprecated-list.svg"
+          "16": "icons/desktop/list-16.svg"
         }
       }
     },
@@ -1711,7 +1641,7 @@
       "categories": ["places", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/deprecated-organize.svg"
+          "16": "icons/desktop/organize-16.svg"
         }
       }
     },
@@ -1720,7 +1650,7 @@
       "categories": ["places", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/deprecated-search-history.svg"
+          "16": "icons/desktop/search-history-16.svg"
         }
       }
     },
@@ -1729,7 +1659,7 @@
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/download-16.svg"
+          "16": "icons/desktop/download-16.svg"
         }
       }
     },
@@ -1738,7 +1668,7 @@
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/history-16.svg"
+          "16": "icons/desktop/history-16.svg"
         }
       }
     },
@@ -1747,7 +1677,7 @@
       "categories": ["places"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/places/subscribe-16.svg"
+          "16": "icons/desktop/subscribe-16.svg"
         }
       }
     },
@@ -1756,7 +1686,7 @@
       "categories": ["reader", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/deprecated-exit.svg"
+          "24": "icons/desktop/exit-24.svg"
         }
       }
     },
@@ -1765,7 +1695,7 @@
       "categories": ["reader", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/deprecated-narrate-faster.svg"
+          "24": "icons/desktop/narrate-faster-24.svg"
         }
       }
     },
@@ -1774,7 +1704,7 @@
       "categories": ["reader", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/deprecated-narrate-slower.svg"
+          "24": "icons/desktop/narrate-slower-24.svg"
         }
       }
     },
@@ -1783,7 +1713,7 @@
       "categories": ["reader", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/deprecated-narrate.svg"
+          "24": "icons/desktop/narrate-24.svg"
         }
       }
     },
@@ -1792,7 +1722,7 @@
       "categories": ["reader", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/deprecated-type-controls-serif.svg"
+          "24": "icons/desktop/type-controls-serif-24.svg"
         }
       }
     },
@@ -1801,7 +1731,7 @@
       "categories": ["reader", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/deprecated-type-controls.svg"
+          "24": "icons/desktop/type-controls-24.svg"
         }
       }
     },
@@ -1810,7 +1740,7 @@
       "categories": ["reader"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/pocket-16.svg"
+          "16": "icons/desktop/pocket-16.svg"
         }
       }
     },
@@ -1819,7 +1749,7 @@
       "categories": ["reader"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/pocket-list-16.svg"
+          "16": "icons/desktop/pocket-list-16.svg"
         }
       }
     },
@@ -1828,7 +1758,7 @@
       "categories": ["reader"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/reader/readermode-16.svg"
+          "16": "icons/desktop/readermode-16.svg"
         }
       }
     },
@@ -1837,7 +1767,7 @@
       "categories": ["security", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/deprecated-identity-mixed-active-blocked.svg"
+          "16": "icons/desktop/identity-mixed-active-blocked-16.svg"
         }
       }
     },
@@ -1846,7 +1776,7 @@
       "categories": ["security", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/deprecated-identity-mixed-active-loaded.svg"
+          "16": "icons/desktop/identity-mixed-active-loaded-16.svg"
         }
       }
     },
@@ -1855,7 +1785,7 @@
       "categories": ["security", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/deprecated-identity-mixed-passive-loaded.svg"
+          "16": "icons/desktop/identity-mixed-passive-loaded-16.svg"
         }
       }
     },
@@ -1864,7 +1794,7 @@
       "categories": ["security", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/deprecated-identity-not-secure.svg"
+          "16": "icons/desktop/identity-not-secure-16.svg"
         }
       }
     },
@@ -1873,7 +1803,7 @@
       "categories": ["security", "deprecated"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/deprecated-identity-secure.svg"
+          "16": "icons/desktop/identity-secure-16.svg"
         }
       }
     },
@@ -1882,7 +1812,7 @@
       "categories": ["security"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/identity-icon-hover.svg"
+          "16": "icons/desktop/identity-icon-hover.svg"
         }
       }
     },
@@ -1891,7 +1821,7 @@
       "categories": ["security"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/identity-icon-notice-hover.svg"
+          "16": "icons/desktop/identity-icon-notice-hover.svg"
         }
       }
     },
@@ -1900,7 +1830,7 @@
       "categories": ["security"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/identity-icon-notice.svg"
+          "16": "icons/desktop/identity-icon-notice.svg"
         }
       }
     },
@@ -1909,7 +1839,7 @@
       "categories": ["security"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/identity-icon.svg"
+          "16": "icons/desktop/identity-icon.svg"
         }
       }
     },
@@ -1918,7 +1848,7 @@
       "categories": ["security"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/tracking-protection-16-disabled.svg"
+          "16": "icons/desktop/tracking-protection-16-disabled.svg"
         }
       }
     },
@@ -1927,7 +1857,7 @@
       "categories": ["security"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/security/tracking-protection-16.svg"
+          "16": "icons/desktop/tracking-protection-16.svg"
         }
       }
     }

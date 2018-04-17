@@ -5,7 +5,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <resources>
-    <!-- Photon Color Palette v3.0.0 -->
+    <!-- Photon Color Palette v3.1.0 -->
     <color name="magenta_50">#ff1ad9</color>
     <color name="magenta_60">#ed00b5</color>
     <color name="magenta_70">#b5007f</color>
@@ -57,6 +57,11 @@
     <color name="orange_90">#3e1300</color>
 
     <color name="grey_10">#f9f9fa</color>
+    <color name="grey_10_a10">#19f9f9fa</color>
+    <color name="grey_10_a20">#33f9f9fa</color>
+    <color name="grey_10_a40">#66f9f9fa</color>
+    <color name="grey_10_a60">#99f9f9fa</color>
+    <color name="grey_10_a80">#ccf9f9fa</color>
     <color name="grey_20">#ededf0</color>
     <color name="grey_30">#d7d7db</color>
     <color name="grey_40">#b1b1b3</color>

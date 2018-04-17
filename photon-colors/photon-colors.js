@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-/* Photon Colors JS Variables v3.0.0 */
+/* Photon Colors JS Variables v3.1.0 */
 
 exports.MAGENTA_50 = '#ff1ad9';
 exports.MAGENTA_60 = '#ed00b5';
@@ -55,6 +55,11 @@ exports.ORANGE_80 = '#712b00';
 exports.ORANGE_90 = '#3e1300';
 
 exports.GREY_10 = '#f9f9fa';
+exports.GREY_10_A10 = '#f9f9fa19';
+exports.GREY_10_A20 = '#f9f9fa33';
+exports.GREY_10_A40 = '#f9f9fa66';
+exports.GREY_10_A60 = '#f9f9fa99';
+exports.GREY_10_A80 = '#f9f9facc';
 exports.GREY_20 = '#ededf0';
 exports.GREY_30 = '#d7d7db';
 exports.GREY_40 = '#b1b1b3';

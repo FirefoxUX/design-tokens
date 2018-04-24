@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-/* Photon Colors SCSS Variables v3.0.1 */
+/* Photon Colors SCSS Variables v3.1.0 */
 
 $magenta-50: #ff1ad9;
 $magenta-60: #ed00b5;
@@ -55,6 +55,11 @@ $orange-80: #712b00;
 $orange-90: #3e1300;
 
 $grey-10: #f9f9fa;
+$grey-10-a10: rgba(249, 249, 250, 0.1);
+$grey-10-a20: rgba(249, 249, 250, 0.2);
+$grey-10-a40: rgba(249, 249, 250, 0.4);
+$grey-10-a60: rgba(249, 249, 250, 0.6);
+$grey-10-a80: rgba(249, 249, 250, 0.8);
 $grey-20: #ededf0;
 $grey-30: #d7d7db;
 $grey-40: #b1b1b3;

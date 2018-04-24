@@ -4,6 +4,7 @@
 
 /* Photon Colors iOS Variables v3.1.0
    From https://github.com/FirefoxUX/design-tokens/tree/master/photon-colors#readme */
+import UIKit
 
 extension UIColor {
     struct Photon {

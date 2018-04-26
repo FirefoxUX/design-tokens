@@ -17,6 +17,8 @@
   <draw:color draw:name="magenta-80" draw:color="#7d004f" />
   <draw:color draw:name="magenta-90" draw:color="#440027" />
 
+  <draw:color draw:name="purple-30" draw:color="#c069ff" />
+  <draw:color draw:name="purple-40" draw:color="#ad3bff" />
   <draw:color draw:name="purple-50" draw:color="#9400ff" />
   <draw:color draw:name="purple-60" draw:color="#8000d7" />
   <draw:color draw:name="purple-70" draw:color="#6200a4" />

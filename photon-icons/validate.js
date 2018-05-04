@@ -2,17 +2,9 @@
 'use strict';
 
 var shell = require('shelljs');
-const images = shell.ls('-R', 'icons').map(image => `icons/${image}`);
-const dirs = shell.ls('-Rd', 'icons/*');
-
-
-for (let dir of dirs) {
-  let index = images.indexOf(dir);
-  if (index != -1) {
-    images.splice(index, 1);
-  }
-}
-
+const images = shell.ls('-R', 'icons')
+  .map(image => `icons/${image}`)
+  .filter(image => image.includes('.'));
 const unseen = images.slice();
 const {icons} = require('./photon-icons.json');
 const missing = [];

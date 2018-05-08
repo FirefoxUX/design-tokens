@@ -89,7 +89,7 @@ const formats = {
     'ext': 'gpl'
   },
   'ios': {
-    'output': [`${jsLicense}\n/* Photon Colors iOS Variables v${metadata.version}\n   From ${metadata.homepage} */\n\nextension UIColor {\n    struct Photon {\n`],
+    'output': [`${jsLicense}\n/* Photon Colors iOS Variables v${metadata.version}\n   From ${metadata.homepage} */\nimport UIKit\n\nextension UIColor {\n    struct Photon {\n`],
     'formatter': (color, variant, value, alpha) => {
       color = color[0].toUpperCase() + color.substr(1);
       if (alpha != '100') {

@@ -4,7 +4,7 @@ Name: Photon Colors
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Photon Colors GPL Color Palette v3.0.1
+# Photon Colors GPL Color Palette v3.2.0
 # https://github.com/FirefoxUX/design-tokens/tree/master/photon-colors#readme
 
 255 26 217 Magenta 50
@@ -13,6 +13,8 @@ Name: Photon Colors
 125 0 79 Magenta 80
 68 0 39 Magenta 90
 
+192 105 255 Purple 30
+173 59 255 Purple 40
 148 0 255 Purple 50
 128 0 215 Purple 60
 98 0 164 Purple 70

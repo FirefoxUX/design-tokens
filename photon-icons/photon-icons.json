@@ -14,6 +14,24 @@
     "yellow-60"
   ],
   "icons": [
+    { "name": "Undo",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/undo-16.svg"
+        }
+      }
+    },
+    { "name": "Redo",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/redo-16.svg"
+        }
+      }
+    },
     { "name": "Help",
       "tags": [],
       "categories": ["alert"],

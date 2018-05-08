@@ -14,24 +14,6 @@
     "yellow-60"
   ],
   "icons": [
-    { "name": "Undo",
-      "tags": [],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/undo-16.svg"
-        }
-      }
-    },
-    { "name": "Redo",
-      "tags": [],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/redo-16.svg"
-        }
-      }
-    },
     { "name": "Help",
       "tags": [],
       "categories": ["alert"],
@@ -95,30 +77,12 @@
         }
       }
     },
-    { "name": "Character Encoding",
+    { "name": "Fullscreen",
       "tags": [],
-      "categories": ["content", "deprecated"],
+      "categories": ["content"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/character-encoding-16.svg"
-        }
-      }
-    },
-    { "name": "Zoom In",
-      "tags": [],
-      "categories": ["content", "deprecated"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/zoom-in-16.svg"
-        }
-      }
-    },
-    { "name": "Zoom Out",
-      "tags": [],
-      "categories": ["content", "deprecated"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/zoom-out-16.svg"
+          "16": "icons/desktop/fullscreen-16.svg"
         }
       }
     },
@@ -128,15 +92,6 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/fullscreen-16-disabled.svg"
-        }
-      }
-    },
-    { "name": "Fullscreen",
-      "tags": [],
-      "categories": ["content"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/fullscreen-16.svg"
         }
       }
     },
@@ -176,6 +131,15 @@
         }
       }
     },
+    { "name": "Redo",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/redo-16.svg"
+        }
+      }
+    },
     { "name": "Save",
       "tags": [],
       "categories": ["content"],
@@ -191,6 +155,42 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/search-16.svg"
+        }
+      }
+    },
+    { "name": "Undo",
+      "tags": [],
+      "categories": ["content"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/undo-16.svg"
+        }
+      }
+    },
+    { "name": "Character Encoding",
+      "tags": [],
+      "categories": ["content", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/character-encoding-16.svg"
+        }
+      }
+    },
+    { "name": "Zoom In",
+      "tags": [],
+      "categories": ["content", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/zoom-in-16.svg"
+        }
+      }
+    },
+    { "name": "Zoom Out",
+      "tags": [],
+      "categories": ["content", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/zoom-out-16.svg"
         }
       }
     },
@@ -905,6 +905,15 @@
         }
       }
     },
+    { "name": "Audio",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/audio-16.svg"
+        }
+      }
+    },
     { "name": "Audio Mute",
       "tags": [],
       "categories": ["media"],
@@ -914,12 +923,39 @@
         }
       }
     },
-    { "name": "Audio",
+    { "name": "Fullscreen",
       "tags": [],
       "categories": ["media"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/audio-16.svg"
+          "16": "icons/desktop/fullscreen-16.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen Disabled",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/fullscreen-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Fullscreen Exit",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/fullscreen-exit-16.svg"
+        }
+      }
+    },
+    { "name": "Play",
+      "tags": [],
+      "categories": ["media"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/play-16.svg"
         }
       }
     },
@@ -965,42 +1001,6 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/rewind-16.svg"
-        }
-      }
-    },
-    { "name": "Fullscreen Disabled",
-      "tags": [],
-      "categories": ["media"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/fullscreen-16-disabled.svg"
-        }
-      }
-    },
-    { "name": "Fullscreen",
-      "tags": [],
-      "categories": ["media"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/fullscreen-16.svg"
-        }
-      }
-    },
-    { "name": "Fullscreen Exit",
-      "tags": [],
-      "categories": ["media"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/fullscreen-exit-16.svg"
-        }
-      }
-    },
-    { "name": "Play",
-      "tags": [],
-      "categories": ["media"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/play-16.svg"
         }
       }
     },
@@ -1065,24 +1065,6 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/close-16.svg"
-        }
-      }
-    },
-    { "name": "Go",
-      "tags": [],
-      "categories": ["navigation", "deprecated"],
-      "source": {
-        "desktop": {
-          "12": "icons/desktop/go-12.svg"
-        }
-      }
-    },
-    { "name": "Tab Groups",
-      "tags": [],
-      "categories": ["navigation", "deprecated"],
-      "source": {
-        "desktop": {
-          "12": "icons/desktop/tab-groups-12.svg"
         }
       }
     },
@@ -1209,6 +1191,24 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/window-new-16.svg"
+        }
+      }
+    },
+    { "name": "Go",
+      "tags": [],
+      "categories": ["navigation", "deprecated"],
+      "source": {
+        "desktop": {
+          "12": "icons/desktop/go-12.svg"
+        }
+      }
+    },
+    { "name": "Tab Groups",
+      "tags": [],
+      "categories": ["navigation", "deprecated"],
+      "source": {
+        "desktop": {
+          "12": "icons/desktop/tab-groups-12.svg"
         }
       }
     },
@@ -1402,30 +1402,21 @@
         }
       }
     },
-    { "name": "Permissions",
+    { "name": "Location",
       "tags": [],
-      "categories": ["permissions", "deprecated"],
+      "categories": ["permissions"],
       "source": {
         "desktop": {
-          "24": "icons/desktop/permissions-24.svg"
+          "16": "icons/desktop/location-16.svg"
         }
       }
     },
-    { "name": "Location Disabled",
+      { "name": "Location Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
           "16": "icons/desktop/location-16-disabled.svg"
-        }
-      }
-    },
-    { "name": "Location Mac Disabled",
-      "tags": [],
-      "categories": ["permissions"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/location-16-mac-disabled.svg"
         }
       }
     },
@@ -1438,12 +1429,12 @@
         }
       }
     },
-    { "name": "Location Win Disabled",
+    { "name": "Location Mac Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/location-16-win-disabled.svg"
+          "16": "icons/desktop/location-16-mac-disabled.svg"
         }
       }
     },
@@ -1456,12 +1447,12 @@
         }
       }
     },
-    { "name": "Location",
+    { "name": "Location Win Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/location-16.svg"
+          "16": "icons/desktop/location-16-win-disabled.svg"
         }
       }
     },
@@ -1474,15 +1465,6 @@
         }
       }
     },
-    { "name": "Microphone Disabled",
-      "tags": [],
-      "categories": ["permissions"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/microphone-16-disabled.svg"
-        }
-      }
-    },
     { "name": "Microphone",
       "tags": [],
       "categories": ["permissions"],
@@ -1492,12 +1474,12 @@
         }
       }
     },
-    { "name": "Mouse Pointer Disabled",
+    { "name": "Microphone Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/mouse-pointer-16-disabled.svg"
+          "16": "icons/desktop/microphone-16-disabled.svg"
         }
       }
     },
@@ -1510,12 +1492,12 @@
         }
       }
     },
-    { "name": "Notification Disabled",
+    { "name": "Mouse Pointer Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/notification-16-disabled.svg"
+          "16": "icons/desktop/mouse-pointer-16-disabled.svg"
         }
       }
     },
@@ -1528,12 +1510,12 @@
         }
       }
     },
-    { "name": "Plugin Disabled",
+    { "name": "Notification Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/plugin-16-disabled.svg"
+          "16": "icons/desktop/notification-16-disabled.svg"
         }
       }
     },
@@ -1546,21 +1528,21 @@
         }
       }
     },
+    { "name": "Plugin Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/plugin-16-disabled.svg"
+        }
+      }
+    },
     { "name": "Popup Block",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
           "16": "icons/desktop/popup-block-16.svg"
-        }
-      }
-    },
-    { "name": "Screen Share Disabled",
-      "tags": [],
-      "categories": ["permissions"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/screen-share-16-disabled.svg"
         }
       }
     },
@@ -1573,12 +1555,12 @@
         }
       }
     },
-    { "name": "Store Data Disabled",
+    { "name": "Screen Share Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/store-data-16-disabled.svg"
+          "16": "icons/desktop/screen-share-16-disabled.svg"
         }
       }
     },
@@ -1591,12 +1573,12 @@
         }
       }
     },
-    { "name": "Video Recorder Disabled",
+    { "name": "Store Data Disabled",
       "tags": [],
       "categories": ["permissions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/video-recorder-16-disabled.svg"
+          "16": "icons/desktop/store-data-16-disabled.svg"
         }
       }
     },
@@ -1606,6 +1588,24 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/video-recorder-16.svg"
+        }
+      }
+    },
+    { "name": "Video Recorder Disabled",
+      "tags": [],
+      "categories": ["permissions"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/video-recorder-16-disabled.svg"
+        }
+      }
+    },
+    { "name": "Permissions",
+      "tags": [],
+      "categories": ["permissions", "deprecated"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/permissions-24.svg"
         }
       }
     },
@@ -1645,6 +1645,33 @@
         }
       }
     },
+    { "name": "Download",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/download-16.svg"
+        }
+      }
+    },
+    { "name": "History",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/history-16.svg"
+        }
+      }
+    },
+    { "name": "Subscribe",
+      "tags": [],
+      "categories": ["places"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/subscribe-16.svg"
+        }
+      }
+    },
     { "name": "Import Export",
       "tags": [],
       "categories": ["places", "deprecated"],
@@ -1681,87 +1708,6 @@
         }
       }
     },
-    { "name": "Download",
-      "tags": [],
-      "categories": ["places"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/download-16.svg"
-        }
-      }
-    },
-    { "name": "History",
-      "tags": [],
-      "categories": ["places"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/history-16.svg"
-        }
-      }
-    },
-    { "name": "Subscribe",
-      "tags": [],
-      "categories": ["places"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/subscribe-16.svg"
-        }
-      }
-    },
-    { "name": "Exit",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
-      "source": {
-        "desktop": {
-          "24": "icons/desktop/exit-24.svg"
-        }
-      }
-    },
-    { "name": "Narrate Faster",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
-      "source": {
-        "desktop": {
-          "24": "icons/desktop/narrate-faster-24.svg"
-        }
-      }
-    },
-    { "name": "Narrate Slower",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
-      "source": {
-        "desktop": {
-          "24": "icons/desktop/narrate-slower-24.svg"
-        }
-      }
-    },
-    { "name": "Narrate",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
-      "source": {
-        "desktop": {
-          "24": "icons/desktop/narrate-24.svg"
-        }
-      }
-    },
-    { "name": "Type Controls Serif",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
-      "source": {
-        "desktop": {
-          "24": "icons/desktop/type-controls-serif-24.svg"
-        }
-      }
-    },
-    { "name": "Type Controls",
-      "tags": [],
-      "categories": ["reader", "deprecated"],
-      "source": {
-        "desktop": {
-          "24": "icons/desktop/type-controls-24.svg"
-        }
-      }
-    },
     { "name": "Pocket",
       "tags": [],
       "categories": ["reader"],
@@ -1786,6 +1732,114 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/readermode-16.svg"
+        }
+      }
+    },
+    { "name": "Exit",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/exit-24.svg"
+        }
+      }
+    },
+    { "name": "Narrate",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/narrate-24.svg"
+        }
+      }
+    },
+    { "name": "Narrate Faster",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/narrate-faster-24.svg"
+        }
+      }
+    },
+    { "name": "Narrate Slower",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/narrate-slower-24.svg"
+        }
+      }
+    },
+    { "name": "Type Controls",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/type-controls-24.svg"
+        }
+      }
+    },
+    { "name": "Type Controls Serif",
+      "tags": [],
+      "categories": ["reader", "deprecated"],
+      "source": {
+        "desktop": {
+          "24": "icons/desktop/type-controls-serif-24.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/identity-icon.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon Hover",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/identity-icon-hover.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon Notice",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/identity-icon-notice.svg"
+        }
+      }
+    },
+    { "name": "Identity Icon Notice Hover",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/identity-icon-notice-hover.svg"
+        }
+      }
+    },
+    { "name": "Tracking Protection",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/tracking-protection-16.svg"
+        }
+      }
+    },
+    { "name": "Tracking Protection Disabled",
+      "tags": [],
+      "categories": ["security"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/tracking-protection-16-disabled.svg"
         }
       }
     },
@@ -1831,60 +1885,6 @@
       "source": {
         "desktop": {
           "16": "icons/desktop/identity-secure-16.svg"
-        }
-      }
-    },
-    { "name": "Identity Icon Hover",
-      "tags": [],
-      "categories": ["security"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/identity-icon-hover.svg"
-        }
-      }
-    },
-    { "name": "Identity Icon Notice Hover",
-      "tags": [],
-      "categories": ["security"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/identity-icon-notice-hover.svg"
-        }
-      }
-    },
-    { "name": "Identity Icon Notice",
-      "tags": [],
-      "categories": ["security"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/identity-icon-notice.svg"
-        }
-      }
-    },
-    { "name": "Identity Icon",
-      "tags": [],
-      "categories": ["security"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/identity-icon.svg"
-        }
-      }
-    },
-    { "name": "Tracking Protection Disabled",
-      "tags": [],
-      "categories": ["security"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/tracking-protection-16-disabled.svg"
-        }
-      }
-    },
-    { "name": "Tracking Protection",
-      "tags": [],
-      "categories": ["security"],
-      "source": {
-        "desktop": {
-          "16": "icons/desktop/tracking-protection-16.svg"
         }
       }
     }

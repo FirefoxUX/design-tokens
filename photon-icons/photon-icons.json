@@ -203,6 +203,15 @@
         }
       }
     },
+    { "name": "Close",
+      "tags": [],
+      "categories": ["developer", "deprecated"],
+      "source": {
+        "desktop": {
+          "16": "icons/desktop/developer-close-16.svg"
+        }
+      }
+    },
     { "name": "Command Console",
       "tags": [],
       "categories": ["developer", "deprecated"],
@@ -766,7 +775,7 @@
       "categories": ["extensions"],
       "source": {
         "desktop": {
-          "16": "icons/desktop/legacy-extension.svg"
+          "16": "icons/desktop/legacy-extension-16.svg"
         }
       }
     },

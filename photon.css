@@ -1,0 +1,421 @@
+/*!
+ * Photon Design System (https://github.com/FirefoxUX/design-tokens/)
+ */
+@import "photon-colors.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: var(--blue-60);
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--blue-70);
+}
+
+a:focus {
+  border: 1px solid var(--teal-50);
+}
+
+a:hover {
+  color: var(--blue-70);
+  text-decoration: underline;
+}
+
+a[href*="://"]::after {
+  content: "^";
+}
+
+body {
+  background-color: var(--grey-10);
+  color: var(--grey-90);
+  font-family: "system-ui", "Ubuntu", "Segoe UI", "San Francisco";
+  font-size: 15px;
+  padding: 20px 44px 0;
+}
+
+button {
+  background-color: var(--grey-30);
+  border: none;
+  border-radius: 2px;
+  font-size: 13px;
+  height: 32px;
+  padding: 0 8px;
+  color: var(--grey-90);
+}
+
+button:hover {
+  background-color: var(--grey-40);
+}
+
+button:active {
+  background-color: var(--grey-50);
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+dialog {
+  background-color: var(--grey-10);
+  border: 1px solid var(--grey-30);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  color: var(--grey-90);
+  padding: 0;
+}
+
+dialog::backdrop {
+  background: var(--grey-90-a60);
+}
+
+dialog footer,
+dialog section {
+  margin: 20px;
+}
+
+dialog header {
+  background-color: var(--grey-20);
+  border-bottom: 1px solid var(--grey-30);
+  padding: 10px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--grey-30);
+}
+
+input {
+  border: 1px solid var(--grey-30);
+  padding: 4px;
+}
+
+input:focus {
+  border: 1px solid var(--blue-50);
+}
+
+input:invalid {
+  border: 1px solid var(--red-50);
+}
+
+label {
+  font-size: 13px;
+}
+
+table {
+  border: 1px solid var(--grey-30);
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 8px;
+}
+
+thead th {
+  background-color: var(--grey-20);
+  color: var(--grey-50);
+  font-weight: normal;
+}
+
+tbody tr {
+  background-color: white;
+}
+
+ul.richlist {
+  list-style-type: none;
+  padding: 0;
+  -moz-user-select: none;
+}
+
+ul.richlist li {
+  padding: 10px;
+}
+
+ul.richlist li:hover {
+  background-color: var(--grey-30);
+  border-radius: 2px;
+}
+
+:disabled {
+  opacity: 0.4;
+}
+
+.badge {
+  background-color: var(--yellow-50);
+  font-size: small;
+  padding: 4px;
+  text-transform: uppercase;
+}
+
+.btn-micro {
+  font-size: 11px;
+  height: 24px;
+}
+
+.btn-primary {
+  background-color: var(--blue-60);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-70);
+}
+
+.btn-primary:active {
+  background-color: var(--blue-80);
+}
+
+.btn-puffy {
+  border-radius: 4px;
+  font-size: 15px;
+  height: 48px;
+  padding: 0 16px;
+}
+
+.btn-ghost {
+  color: var(--grey-90-a80);
+  width: 32px;
+}
+
+.btn-ghost:not(:hover) {
+  background: none !important;
+}
+
+.btn-wide {
+  min-width: 132px;
+}
+
+.card {
+  background-color: #fff;
+  margin: 1rem 0;
+  padding: 0.75rem;
+}
+
+.card:empty {
+  display: none;
+}
+
+.doorhanger {
+  background-color: #fff;
+  border: 1px solid var(--grey-90-a20);
+  box-shadow: 0 4px 16px var(--grey-90-a10);
+  max-height: 90%;
+  max-width: 320px;
+  position: absolute;
+}
+
+.doorhanger-menu {
+  padding: 4px 0;
+}
+
+.doorhanger-menu a {
+  border: 0;
+  color: var(--ink-90);
+  display: block;
+  text-decoration: none;
+  outline: 0;
+  padding: 4px 8px;
+}
+
+.doorhanger-menu a:hover {
+  background-color: var(--grey-20);
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+.messagebar {
+  align-items: center;
+  background-position: 4px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  display: flex;
+  font-size: 13px;
+  min-height: 32px;
+  padding: 4px 4px 4px 24px;
+  width: -moz-fit-content;
+}
+
+.messagebar-attention {
+  background-color: var(--teal-50);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSJjb250ZXh0LWZpbGwiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggMWE3IDcgMCAxIDEtNyA3IDcgNyAwIDAgMSA3LTd6bTAgM2ExIDEgMCAxIDEtMSAxIDEgMSAwIDAgMSAxLTF6bTAgM2ExIDEgMCAwIDEgMSAxdjNhMSAxIDAgMCAxLTIgMFY4YTEgMSAwIDAgMSAxLTF6Ij48L3BhdGg+PC9zdmc+);
+  color: var(--teal-90);
+}
+
+.messagebar-generic {
+  background-color: var(--grey-20);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSJjb250ZXh0LWZpbGwiIGQ9Ik04IDFhNyA3IDAgMSAwIDcgNyA3LjAwOCA3LjAwOCAwIDAgMC03LTd6bTAgMTNhNiA2IDAgMSAxIDYtNiA2LjAwNyA2LjAwNyAwIDAgMS02IDZ6bTAtN2ExIDEgMCAwIDAtMSAxdjNhMSAxIDAgMSAwIDIgMFY4YTEgMSAwIDAgMC0xLTF6bTAtMy4xODhBMS4xODggMS4xODggMCAxIDAgOS4xODggNSAxLjE4OCAxLjE4OCAwIDAgMCA4IDMuODEyeiI+PC9wYXRoPjwvc3ZnPg==);
+  color: var(--grey-90);
+}
+
+.messagebar-success {
+  background-color: var(--green-50);
+  background-image: url(data:image/svg+xml;base64,PCEtLSBUaGlzIFNvdXJjZSBDb2RlIEZvcm0gaXMgc3ViamVjdCB0byB0aGUgdGVybXMgb2YgdGhlIE1vemlsbGEgUHVibGljCiAgIC0gTGljZW5zZSwgdi4gMi4wLiBJZiBhIGNvcHkgb2YgdGhlIE1QTCB3YXMgbm90IGRpc3RyaWJ1dGVkIHdpdGggdGhpcwogICAtIGZpbGUsIFlvdSBjYW4gb2J0YWluIG9uZSBhdCBodHRwOi8vbW96aWxsYS5vcmcvTVBMLzIuMC8uIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGZpbGw9ImNvbnRleHQtZmlsbCIgZD0iTTYgMTRhMSAxIDAgMCAxLS43MDctLjI5M2wtMy0zYTEgMSAwIDAgMSAxLjQxNC0xLjQxNGwyLjE1NyAyLjE1NyA2LjMxNi05LjAyM2ExIDEgMCAwIDEgMS42MzkgMS4xNDZsLTcgMTBhMSAxIDAgMCAxLS43MzIuNDI3QS44NjMuODYzIDAgMCAxIDYgMTR6Ij48L3BhdGg+Cjwvc3ZnPgo=);
+  color: var(--green-90);
+}
+
+.messagebar-warning {
+  background-color: var(--yellow-50);
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSJjb250ZXh0LWZpbGwiIGQ9Ik0xNC43NDIgMTIuMTA2TDkuNzg5IDIuMmEyIDIgMCAwIDAtMy41NzggMGwtNC45NTMgOS45MUEyIDIgMCAwIDAgMy4wNDcgMTVoOS45MDVhMiAyIDAgMCAwIDEuNzktMi44OTR6TTcgNWExIDEgMCAwIDEgMiAwdjRhMSAxIDAgMCAxLTIgMHptMSA4LjI1QTEuMjUgMS4yNSAwIDEgMSA5LjI1IDEyIDEuMjUgMS4yNSAwIDAgMSA4IDEzLjI1eiI+PC9wYXRoPjwvc3ZnPg==');
+  color: var(--yellow-90);
+}
+
+.messagebar-error {
+  background-color: var(--red-50);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTE0Ljc0MiAxMi4xMDZMOS43ODkgMi4yYTIgMiAwIDAgMC0zLjU3OCAwbC00Ljk1MyA5LjkxQTIgMiAwIDAgMCAzLjA0NyAxNWg5LjkwNWEyIDIgMCAwIDAgMS43OS0yLjg5NHpNNyA1YTEgMSAwIDAgMSAyIDB2NGExIDEgMCAwIDEtMiAwem0xIDguMjVBMS4yNSAxLjI1IDAgMSAxIDkuMjUgMTIgMS4yNSAxLjI1IDAgMCAxIDggMTMuMjV6Ij48L3BhdGg+PC9zdmc+);
+  color: white;
+}
+
+.messagebar-fixed {
+  border-bottom: 1px solid var(--grey-30);
+  border-radius: 0;
+  height: 36px;
+  font-size: 15px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.messagebar button {
+  font-size: 90%;
+  height: 24px;
+  line-height: 1px;
+  text-transform: uppercase;
+}
+
+.messagebar .btn-ghost {
+  width: 24px;
+}
+
+.messagebar-attention button {
+  background-color: var(--teal-60);
+}
+
+.messagebar-success button {
+  background-color: var(--green-60);
+}
+
+.messagebar-warning button {
+  background-color: var(--yellow-60);
+}
+
+.messagebar-error button {
+  background-color: var(--red-60);
+  color: white;
+}
+
+.messagebar-attention button:hover {
+  background-color: var(--teal-70);
+  color: white;
+}
+
+.messagebar-success button:hover {
+  background-color: var(--green-70);
+  color: white;
+}
+
+.messagebar-warning button:hover {
+  background-color: var(--yellow-70);
+}
+
+.messagebar-error button:hover {
+  background-color: var(--red-70);
+}
+
+.messagebar-attention button:active {
+  background-color: var(--teal-80);
+}
+
+.messagebar-success button:active {
+  background-color: var(--green-80);
+}
+
+.messagebar-warning button:active {
+  background-color: var(--yellow-80);
+  color: white;
+}
+
+.messagebar-error button:active {
+  background-color: var(--red-80);
+}
+
+.tabs {
+  border-bottom: 1px solid var(--grey-30);
+  -moz-user-select: none;
+}
+
+.tabs a,
+.tabs button {
+  color: var(--grey-90);
+  text-decoration: none;
+}
+
+.tabs li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 4px 20px;
+}
+
+.tabs li:hover {
+  background-color: var(--grey-30);
+  border-bottom: 4px solid var(--grey-30);
+}
+
+.tabs ul {
+  display: inline-flex;
+  margin: 0;
+}
+
+.tabs .active {
+  background-color: var(--grey-30);
+  border-bottom: 4px solid var(--blue-50);
+}
+
+.tabs .active:hover {
+  background-color: var(--grey-30);
+  border-bottom: 4px solid var(--blue-50);
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--grey-20) !important;
+}
+
+.table-striped tbody tr:nth-child(even) {
+  background-color: var(--grey-10);
+}
+
+.shadow-10 {
+  box-shadow: 0 1px 4px var(--grey-90-a10);
+}
+
+.shadow-20 {
+  box-shadow: 0 2px 8px var(--grey-90-a10);
+}
+
+.shadow-30 {
+  box-shadow: 0 4px 16px var(--grey-90-a10);
+}
+
+.text-success {
+  color: var(--green-50);
+}
+
+.text-danger {
+  color: var(--red-50);
+}
+
+.user-select-none {
+  -moz-user-select: none;
+}
